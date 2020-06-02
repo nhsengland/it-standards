@@ -14,7 +14,7 @@ Folders, naming standards, reference numbers and other structural standards are 
 
 ## Tools
 
-To add/amend standards in this repository, it must be [cloned](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). Changes made and then a [Push Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) made which will then be reviewed and accepted and/or rejected. In some cases, reviewers may require additional changes to be made and the PR can be resubmitted.
+To add/amend standards in this repository, it must be [cloned](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). Changes made and then a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) made which will then be reviewed and accepted and/or rejected. In some cases, reviewers may require additional changes to be made and the PR can be resubmitted.
 
 Devices being used to make amendments will need [Git](https://git-scm.com/) installed.
 
