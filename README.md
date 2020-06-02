@@ -18,9 +18,9 @@ To add/amend standards in this repository, it must be [cloned](https://help.gith
 
 Devices being used to make amendments will need [Git](https://git-scm.com/) installed.
 
-Standard development type tools can be used to manage the change process. Many people will have a favourite code editor that supports Markdown such as [Microsoft Visual Studio Code](https://code.visualstudio.com/) (which is free for all use and available on different platforms). VS Code has a number of extensions that support management of GitHub repositories.
+Standard development type tools can be used to manage the change process. Many people will have a favourite code editor that supports Markdown such as [Microsoft Visual Studio Code](https://code.visualstudio.com/) (which is free for all use and available on different platforms). VS Code has a number of [extensions that support management of GitHub repositories](https://code.visualstudio.com/docs/editor/github).
 
-
+For anyone who wants something more visual than a text editor, [Typora](https://typora.io/) is recommended. Typora provides a visual editor (WYSIWYG) making edits much easier for non-coders.
 
 ## Copyright and License
 
