@@ -97,8 +97,18 @@ Typora supports more markdown extensions than GitHub does and so some features s
 
 Typora also has a useful Table of Contents feature that should be used at least with longer documents. (VSCode also has extensions that will manage TOCs).
 
+For pasting images from the clipboard, you can set Typora to automatically copy the image as a file to the current folder.
+
 ### VSCode
+
+VSCode is a powerful open source text editor and integrated development environment from Microsoft. It is free to use for commercial and personal use. Unlike Typora, editing Markdown happens in text only but there is a live, synchronised preview view that opens in a side window of the editor.
 
 VScode has a number of useful extensions that can help when authoring, including:
 
-* TBC
+* [Markdown All-In-One](https://github.com/yzhang-gh/vscode-markdown)
+* [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+* [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)
+* [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image) - will copy a pasted image to the same folder as the open file & add a link to the document.
+
+There are also several powerful GitHub and Git extensions that may be useful for some people.
+
