@@ -6,6 +6,10 @@ IT Standards for NHS England &amp; NHS Improvement. Documented in markdown and m
 
 If you would like to contribute to these standards, please raise an Issue in the first instance.
 
+Contributions will be accepted via [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR). Direct contributors should create a "topic branch" in this repository, make changes there and then submit a PR to get the changes approved and accepted into the master branch which will always be the "current" published version.
+
+Non-direct contributors should create a fork of this repository, make changes and submit a PR.
+
 ## Formatting and Structure
 
 All standards published in this repository will be written in [GitHub Flavoured Markdown](https://github.github.com/gfm/).
@@ -14,7 +18,7 @@ Folders, naming standards, reference numbers and other structural standards are 
 
 ## Tools
 
-To add/amend standards in this repository, it must be [cloned](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). Changes made and then a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) made which will then be reviewed and accepted and/or rejected. In some cases, reviewers may require additional changes to be made and the PR can be resubmitted.
+To add/amend standards in this repository, see the [Contributing](#contributing) section above.
 
 Devices being used to make amendments will need [Git](https://git-scm.com/) installed.
 
