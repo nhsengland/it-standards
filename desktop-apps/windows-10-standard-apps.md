@@ -23,7 +23,7 @@ These are the application standards that must be used for future desktop platfor
 
 - Anti-malware: Windows Defender
   
-  No other live anti-malware tools should be included as these can cause support issues
+  No other live anti-malware tools should be included as these can cause support issues.
 
 - Microsoft Office 365 (Click-to-run)
   
@@ -43,13 +43,15 @@ These are the application standards that must be used for future desktop platfor
     
     Available as an alternative to Edge.
 
+- File Compression: 7zip
+
 ## NHS England specific
 
 Only differences from the [Common Standard](#common-standard) are listed.
 
 TBC
 
-- Anti-malware: 
+- Anti-malware: Trend
   
 - Browsers
   
@@ -65,7 +67,7 @@ Only differences from the [Common Standard](#common-standard) are listed.
 
 TBC
 
-- Anti-malware: 
+- Anti-malware: Kasperski
   
 - Browsers
   
