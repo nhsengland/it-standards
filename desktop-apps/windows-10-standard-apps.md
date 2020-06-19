@@ -4,7 +4,7 @@ description: >
    Defines the standard applications for devices running a desktop OS
 stage: 3. Development Stage
 created: 2020-06-15 10:00:00
-lastUpdated: 2020-06-15 16:04:45
+lastUpdated: 2020-06-19 21:46:45
 ---
 
 # Windows 10 Standard Applications
