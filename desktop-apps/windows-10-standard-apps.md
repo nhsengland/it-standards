@@ -45,6 +45,11 @@ These are the application standards that must be used for future desktop platfor
 
 - File Compression: 7zip
 
+- Collaboration
+
+  - Microsoft Teams
+  - Microsoft Whiteboard
+
 ## NHS England specific
 
 Only differences from the [Common Standard](#common-standard) are listed.
