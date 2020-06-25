@@ -2,6 +2,12 @@
 
 IT Standards for NHS England &amp; NHS Improvement. Documented in markdown and managed as code.
 
+Out standards are built based on other standards and policies across the UK Government and Health sectors.
+
+The UK Government **[Tech Vision](https://www.gov.uk/government/publications/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care)** - ‘Standards that meet user needs: we must be clear how these standards address the user needs of people who use health and care services, carers and families, as well as care professionals and commissioners.’
+
+The **[NHS Long Term Plan](https://www.longtermplan.nhs.uk/areas-of-work/digital-transformation/)** - ‘Set standards that keep information secure and make sure NHS IT systems talk to each other to provide health and care staff with complete access to joined up patient records.’​
+
 ## Contributing
 
 If you would like to contribute to these standards, please raise an Issue in the first instance.
