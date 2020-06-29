@@ -11,6 +11,8 @@ lastUpdated: 2020-06-19 21:46:45
 
 **Documentation Stage**: 3. Development Stage
 
+> Development stage documents are incomplete and in-progress. They are actively looking for feedback.
+
 These are the standard applications that users can expect to have on their Windows 10 desktop OS.
 
 ## Common Standard
