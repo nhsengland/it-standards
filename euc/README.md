@@ -1,4 +1,4 @@
-# End User Compute (EUC) Applications Standards
+# End User Compute (EUC) Standards
 
 EUC covers "desktop" devices (desktops, laptops, convertables and tablets running desktop operating systems such as Microsoft Windows or Apple OSX).
 EUC also covers mobile devices (smartphones and tablets running mobile operating systems such as Apple iOS and Google Android).
