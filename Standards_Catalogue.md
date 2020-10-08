@@ -1,18 +1,20 @@
 # Catalogue of IT Standards for NHS England and NHS Improvement
 
+## [Business Applications Development](./business-dev)
+
+## [Code and Content Licence Standards] (./licence-standard)
+
 ## [End User Compute (EUC)](./euc) - desktop and mobile
 
 * [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
 
 ## [Identity Management](./identity-management)
 
-## [Business Applications Development](./business-dev)
-
 ## [Internet Applications Development](./internet-dev)
 
-## [Platform Applications Development](./platform-dev)
-
 ## [Mobile Applications Development](./mobile-dev)
+
+## [Platform Applications Development](./platform-dev)
 
 ## Other Applicable UK Government and NHS Standards
 
