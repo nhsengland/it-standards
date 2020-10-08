@@ -2,7 +2,7 @@
 
 ## [Business Applications Development](./business-dev)
 
-## [Code and Content Licence Standards] (./licence-standard)
+## [Code and Documentation Licence Standards](./licence-standard)
 
 ## [End User Compute (EUC)](./euc) - desktop and mobile
 
