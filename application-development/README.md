@@ -29,13 +29,16 @@ Things to cover (in no specific order):
    * .NET - core development for business applications
    * PYTHON 3 - for scripting where cross-platform compatibility is important
    * PowerShell - for scripting of Windows specific services
-   * Other: Node.js
+   * Other: ??
 * Front-end development stack
    * REACT
    * ?? CSS Framework ??
 * Terraform used for auto-provisioning
 * Selenium WebDriver
 * Security - secure development principles, security testing
+* Environment and infrastructure management (DevOps automation to be used throughout)
 * Testing
 * Acceptance into service
 * Accessibility
+
+Note that these standards should be used by all projects. If a project has a legitimate need to do something different, that will require review and approval from the Architecture Review Board.
