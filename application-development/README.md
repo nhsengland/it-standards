@@ -1,6 +1,17 @@
+---
+title: Application Development Standards
+description: >
+   Defines the standards for developing bespoke applications.
+stage: 1. Proposal Stage
+created: 2020-11-17 13:23:29
+lastUpdated: 2020-11-17 15:09:12
+---
+
 # Application Development
 
-**Status**: 1 - Proposal
+**Documentation Stage**: 1. Proposal Stage
+
+> Proposal stage documents are not yet accepted. They are reviewed by appropriate SME's
 
 This category defines the standards for bespoke deveopment in NHS England and NHS Improvement.
 
