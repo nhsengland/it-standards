@@ -40,5 +40,6 @@ Things to cover (in no specific order):
 * Testing
 * Acceptance into service
 * Accessibility
+* Containerisation - where it makes sense, using Kubernetes.
 
 Note that these standards should be used by all projects. If a project has a legitimate need to do something different, that will require review and approval from the Architecture Review Board.
