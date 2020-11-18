@@ -4,7 +4,7 @@ description: >
    Defines the standards for developing bespoke applications.
 stage: 1. Proposal Stage
 created: 2020-11-17 13:23:29
-lastUpdated: 2020-11-17 15:09:12
+lastUpdated: 2020-11-18 11:44:12
 ---
 
 # Application Development
@@ -19,7 +19,7 @@ Things to cover (in no specific order):
 
 * Passwords - Azure Key Vault, no sensitive information in code
 * Development/project style (e.g. agile vs waterfall)
-* Documentation standards
+* Documentation standards - "documentation as code"
 * Code management and publishing - Use of Git and GitHub
 * Code and documentation licensing and copyright
 * Azure first (Cloud first, mobility first)
