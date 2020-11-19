@@ -61,5 +61,6 @@ Things to cover (in no specific order):
 * Accessibility
 * Containerisation - where it makes sense, using Kubernetes.
 * Identity and Access Management - end users, administrators - _requires a separate document_ - TL:DR Okta for "external" users, Azure SSO/AAD for assured internal users. Current use of Okta is for non-assured identities only (no identity assurance and no authorisation. If this is required, a separate instance of Okata may be required).
+* Copyright & Licensing - see [Issue #2](https://github.com/nhsengland/it-standards/issues/2) and [PR #3](https://github.com/nhsengland/it-standards/pull/3) - Crown Copyright & dual MIT/OGL licensing.
 
 Note that these standards should be used by all projects. If a project has a legitimate need to do something different, that will require review and approval from the Architecture Review Board.
