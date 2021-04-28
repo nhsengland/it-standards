@@ -1,3 +1,12 @@
+---
+title: System Authentication
+description: >
+   Defines the standards for authenticating users to bespoke applications.
+stage: 3. Development Stage
+created: 2021-04-28 10:00:00
+lastUpdated: 2021-04-28 13:33:00
+---
+
 # Standards for system authentication
 
 Status: TBC - not yet complete.
