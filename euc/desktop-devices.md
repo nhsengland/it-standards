@@ -4,7 +4,7 @@ description: >
    Defines the standard devices and configurations for EUC desktops.
 stage: 3. Development Stage
 created: 2020-06-25 16:23:29
-lastUpdated: 2020-06-25 16:23:35
+lastUpdated: 2021-05-04 17:01:00
 ---
 
 # Standards for Desktop EUC devices
