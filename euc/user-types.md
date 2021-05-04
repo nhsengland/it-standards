@@ -18,6 +18,8 @@ The currently identified types are:
 3) Highly Mobile User
 4) NHSX and other organisations
 
+Device types are detailed in [Desktop Devices](./desktop-devices.md).
+
 ## 1) Standard User
 
 This covers 80-90% of all users across NHS England and NHS Improvement.
