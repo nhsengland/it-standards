@@ -19,6 +19,9 @@ Desktop EUC devices are desktops, laptops, convertables and tablets running desk
 
 Note that the standard and developer device will comprise the majority of corporate desktop devices. These devices will generally be from one vendor (or a small number of) and the available types are limited in order to reduce capital and support costs. Maintaining multiple device types from multiple vendors quickly gets expensive both in procurement and for maintenance, support, logistics, etc.
 
+It should be noted that **ALL** EUC devices issued by NHSEI and NHSX are subject to ongoing operational and security monitoring.
+Compromised devices may be remotely locked and/or wiped.
+
 ## Standard Device
 
 This device type is aimed at providing the requirements for 80-90% of all staff.
@@ -44,9 +47,10 @@ The standard device type is a "Wintel" laptop with the following minimum feature
 * TPM 2+ chip
 * Colour 15" <sup name="a1">[fn1](#f1)</sup> multi-touch screen (pen input preferred where costs allow <sup name="a2">[fn2](#f2)</sup>)
 * 512GiB SSD or more. Ideally M4 SATA III or better.
-* 
+
 ## Alternative Device Type
 
+TBC.
 
 
 ## Footnotes
