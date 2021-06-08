@@ -7,6 +7,10 @@
 * [Standards for Desktop EUC devices](./euc/desktop-devices.md)
 * [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
 
+## [Infrastructure](./infrastructure) - cloud and on-premise/data centre
+
+* [Cloud Infrastructure](./infrastructure/cloud)
+* [On-Premise (Data Centre) Infrastructure](./infrastructure/on-premise)
 ## [Identity Management](./identity-management)
 
 Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
