@@ -4,13 +4,18 @@
 
 ## [End User Compute (EUC)](./euc) - desktop and mobile
 
+Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
+
 * [Standards for Desktop EUC devices](./euc/desktop-devices.md)
 * [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
 
 ## [Infrastructure](./infrastructure) - cloud and on-premise/data centre
 
+Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
+
 * [Cloud Infrastructure](./infrastructure/cloud)
 * [On-Premise (Data Centre) Infrastructure](./infrastructure/on-premise)
+
 ## [Identity Management](./identity-management)
 
 Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
@@ -37,6 +42,8 @@ Platform development refers to developing systems and solutions on existing plat
 Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
 
 ## Other Applicable UK Government and NHS Standards
+
+All of the standards for NHS England and NHS Improvement are subject to both NHS and UK Government policies, strategies and standards, the key ones of which are listed here.
 
 * [NHS Digital Service Manual](https://service-manual.nhs.uk/) - "Use the service manual to build consistent, usable services that put people first.​ Learn from the research and experience of other NHS teams."
 * [Gov.uk Service Manual](https://www.gov.uk/service-manual) - "Helping teams to create and run great public services that meet the [Service Standard](https://www.gov.uk/service-manual/service-standard)". See also the [Government Design Principles](https://www.gov.uk/guidance/government-design-principles) and the [Gov.uk Design System](https://design-system.service.gov.uk/).
