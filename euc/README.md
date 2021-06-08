@@ -6,3 +6,5 @@ EUC also covers mobile devices (smartphones and tablets running mobile operating
 These are the standards that apply to the provision and use of EUC devices.
 
 Please read the [CONTRIBUTING](../CONTRIBUTING.md) document for details of how to contribute to these standards.
+
+The standard EUC capabilities for NHS England and NHS Improvement are currently (2021H1) going through significant and rapid change from our legacy services to the "Modern Desktop" design as part of the End User Services project.

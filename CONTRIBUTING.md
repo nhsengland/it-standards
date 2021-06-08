@@ -6,7 +6,7 @@ If you would like to contribute to these standards, please raise an [Issue](http
 
 Except for [small corrections](#small-corrections), proposals for new standards or changes to exsisting standards will follow this process:
 
-1. Suggestion Stage
+1. Proposal Stage
 
    Proposals can be submitted as [Issues on GitHub](https://github.com/nhsengland/it-standards/issues). Please use the appropriate template and fill in all sections.
 
