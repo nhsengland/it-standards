@@ -1,46 +1,46 @@
 # Catalogue of IT Standards for NHS England and NHS Improvement
 
-## [Application Development Standards](./application-development)
+## [Application Development Standards](./application-development/readme)
 
-### [Common Application Development Standards](./application-development/common-dev)
+### [Common Application Development Standards](./application-development/common-dev/readme)
 
 These apply to all development.
 
-### [Business Applications Development](./application-development/business-dev)
+### [Business Applications Development](./application-development/business-dev/readme)
 
 Business applications are bespoke applications developed on corporate/business platforms and will typically use C#, C++, Visual Basic.net, SQL Server, etc. They may be hosted on-premise or in the cloud.
 
-### [Internet Applications Development](./application-development/internet-dev)
+### [Internet Applications Development](./application-development/internet-dev/readme)
 
 Internet applications are mostly Internet facing, they may be public or private. They are developed using Internet standards such as HTML, CSS, JavaScript, etc.
 
-### [Platform Applications Development](./application-development/platform-dev)
+### [Platform Applications Development](./application-development/platform-dev/readme)
 
 Platform development refers to developing systems and solutions on existing platforms such as Office 365 or Dynamics 365. It does not refer to cloud platforms such as Azure or AWS since these are infrastructure platforms rather than application platforms.
 
-### [Mobile Applications Development](./application-development/mobile-dev)
+### [Mobile Applications Development](./application-development/mobile-dev/readme)
 
 Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
 
-## [End User Compute (EUC)](./euc) - desktop and mobile
+## [End User Compute (EUC)](./euc/readme) - desktop and mobile
 
 Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
 
 * [Standards for Desktop EUC devices](./euc/desktop-devices.md)
 * [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
 
-## [Identity and Access Management](./idam)
+## [Identity and Access Management](./idam/readme)
 
 Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
 
-## [Infrastructure](./infrastructure) - cloud and on-premise/data centre
+## [Infrastructure](./infrastructure/readme) - cloud and on-premise/data centre
 
 Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
 
 * [Cloud Infrastructure](./infrastructure/cloud)
 * [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
 
-## [Security](./security) - Security and Privacy
+## [Security](./security/readme) - Security and Privacy
 
 Standards related to security and privacy.
 

@@ -1,1 +1,8 @@
 theme: jekyll-theme-slate
+
+defaults:
+  -
+    scope:
+      path: "" # All files
+    values:
+      author: "Julian Knight, Head of Architecture"
