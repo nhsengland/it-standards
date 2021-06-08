@@ -1,7 +1,5 @@
 # Catalogue of IT Standards for NHS England and NHS Improvement
 
-## [Code and Documentation Licence Standards](./licence-standard)
-
 ## [End User Compute (EUC)](./euc) - desktop and mobile
 
 Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
