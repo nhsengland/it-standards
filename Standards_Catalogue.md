@@ -22,25 +22,25 @@ Platform development refers to developing systems and solutions on existing plat
 
 Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
 
-## [End User Compute (EUC)](./euc/readme) - desktop and mobile
+## [End User Compute (EUC)](./euc) - desktop and mobile
 
 Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
 
 * [Standards for Desktop EUC devices](./euc/desktop-devices.md)
 * [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
 
-## [Identity and Access Management](./idam/readme)
+## [Identity and Access Management](./idam)
 
 Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
 
-## [Infrastructure](./infrastructure/readme) - cloud and on-premise/data centre
+## [Infrastructure](./infrastructure) - cloud and on-premise/data centre
 
 Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
 
 * [Cloud Infrastructure](./infrastructure/cloud)
 * [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
 
-## [Security](./security/readme) - Security and Privacy
+## [Security](./security) - Security and Privacy
 
 Standards related to security and privacy.
 
