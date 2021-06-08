@@ -17,10 +17,10 @@ Please refer to the Identity and Access Management strategy and standards before
 We have a number of options in the strategy depending on the requirements.
 
 Internally facing systems MUST always use Single Sign-On. Contact the Head of Architecture or the Head of Development in the 
-Corporate IT and Smarter Working team (CISW) for more specific infomration.
+Corporate IT and Smarter Working team (CISW) for more specific information.
 
 Externally facing systems MUST use our identity service. Contact the Head of Architecture or the Head of Development in the 
-Corporate IT and Smarter Working team (CISW) for more specific infomration.
+Corporate IT and Smarter Working team (CISW) for more specific information.
 
 Exceptions to the standards listed here may be permissible but must be discussed with CISW in advance and will be subject to
 review and approval via the Architecture Review Board (ARB).
@@ -29,7 +29,7 @@ review and approval via the Architecture Review Board (ARB).
 
 * Login forms SHOULD be independent of the system they are securing.
 
-  This facilitates system maintenance windows but allows users to log in and recieve notification about maintenance times.
+  This facilitates system maintenance windows but allows users to log in and receive notification about maintenance times.
   
   Maintenance windows **MUST NOT** be shown to unauthenticated users.
 
@@ -46,7 +46,7 @@ review and approval via the Architecture Review Board (ARB).
 * Login processing MUST set a minimum password length (not less than 12 characters) 
   but SHOULD NOT have a maximum length
   
-  Systems may set a reasonable maxium of 255 characters. In order to prevent password-stuffing and variable overflow vulnerabilities.
+  Systems may set a reasonable maximum of 255 characters. In order to prevent password-stuffing and variable overflow vulnerabilities.
   
 * Password complexity SHOULD be _allowed_ but NOT _enforced_
   

@@ -12,30 +12,31 @@ Standards covering all matters relating to end-user computing. Including devices
 Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
 
 * [Cloud Infrastructure](./infrastructure/cloud)
-* [On-Premise (Data Centre) Infrastructure](./infrastructure/on-premise)
+* [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
 
-## [Identity Management](./identity-management)
+## [Identity and Access Management](./idam)
 
 Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
 
-## [Common Application Development Standards](./common-dev)
+## [Application Development Standards](./application-development)
+
+### [Common Application Development Standards](./application-development/common-dev)
 
 These apply to all development.
 
-## [Business Applications Development](./business-dev)
+### [Business Applications Development](./application-development/business-dev)
 
-Business applications are bespoke applications developed on corporate/business platforms and will typically use C#, C++, Visual Basic.net, SQLserver, etc. They may be hosted on-premise or in the cloud.
+Business applications are bespoke applications developed on corporate/business platforms and will typically use C#, C++, Visual Basic.net, SQL Server, etc. They may be hosted on-premise or in the cloud.
 
-## [Internet Applications Development](./internet-dev)
+### [Internet Applications Development](./application-development/internet-dev)
 
 Internet applications are mostly Internet facing, they may be public or private. They are developed using Internet standards such as HTML, CSS, JavaScript, etc.
 
-## [Platform Applications Development](./platform-dev)
+### [Platform Applications Development](./application-development/platform-dev)
 
 Platform development refers to developing systems and solutions on existing platforms such as Office 365 or Dynamics 365. It does not refer to cloud platforms such as Azure or AWS since these are infrastructure platforms rather than application platforms.
 
-
-## [Mobile Applications Development](./mobile-dev)
+### [Mobile Applications Development](./application-development/mobile-dev)
 
 Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
 
@@ -49,4 +50,4 @@ All of the standards for NHS England and NHS Improvement are subject to both NHS
 * The UK Government **[Tech Vision](https://www.gov.uk/government/publications/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care)** - ‘Standards that meet user needs: we must be clear how these standards address the user needs of people who use health and care services, carers and families, as well as care professionals and commissioners.’
 * The **[NHS Long Term Plan](https://www.longtermplan.nhs.uk/areas-of-work/digital-transformation/)** - ‘Set standards that keep information secure and make sure NHS IT systems talk to each other to provide health and care staff with complete access to joined up patient records.’​
 
-The OECD's Observatory of Public Sector Innovation (OPSI) also has a useful [list of worldwide innovation toolkits](https://oecd-opsi.org/search-toolkits/) that include other governments takes on digital innovation and development.
+The OECD's Observatory of Public Sector Innovation (OPSI) also has a useful [list of worldwide innovation tool-kits](https://oecd-opsi.org/search-toolkits/) that include other governments takes on digital innovation and development.
