@@ -1,23 +1,5 @@
 # Catalogue of IT Standards for NHS England and NHS Improvement
 
-## [End User Compute (EUC)](./euc) - desktop and mobile
-
-Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
-
-* [Standards for Desktop EUC devices](./euc/desktop-devices.md)
-* [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
-
-## [Infrastructure](./infrastructure) - cloud and on-premise/data centre
-
-Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
-
-* [Cloud Infrastructure](./infrastructure/cloud)
-* [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
-
-## [Identity and Access Management](./idam)
-
-Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
-
 ## [Application Development Standards](./application-development)
 
 ### [Common Application Development Standards](./application-development/common-dev)
@@ -39,6 +21,28 @@ Platform development refers to developing systems and solutions on existing plat
 ### [Mobile Applications Development](./application-development/mobile-dev)
 
 Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
+
+## [End User Compute (EUC)](./euc) - desktop and mobile
+
+Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
+
+* [Standards for Desktop EUC devices](./euc/desktop-devices.md)
+* [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
+
+## [Identity and Access Management](./idam)
+
+Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
+
+## [Infrastructure](./infrastructure) - cloud and on-premise/data centre
+
+Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
+
+* [Cloud Infrastructure](./infrastructure/cloud)
+* [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
+
+## [Security](./security) - Security and Privacy
+
+Standards related to security and privacy.
 
 ## Other Applicable UK Government and NHS Standards
 
