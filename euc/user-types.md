@@ -7,8 +7,6 @@ created: 2021-05-04 15:53:00
 lastUpdated: 2021-05-04 17:25:00
 ---
 
-# EUC User Types
-
 This document outlines the different types of users, the software and configuration they can expect, and the device types that they will be allocated as standard.
 
 The currently identified types are:

@@ -7,8 +7,6 @@ created: 2021-05-04 15:53:00
 lastUpdated: 2021-05-04 17:26:00
 ---
 
-# Desktop Software
-
 For standard users, only two mechanisms exist for delivery of desktop software to a users desktop:
 1) Centrally deployed.
 2) Self-service from a controlled portal.

@@ -5,12 +5,14 @@
     <meta name="description" content="NHS England and NHS Improvement IT Standards">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="_assets/favicons/favicon.ico" />
-    <wlink rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@latest/lib/themes/vue.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
     <!-- Custom theme styles -->
     <style>
-        /* https://service-manual.nhs.uk/design-system/styles/typography */
+        /**
+         * https://service-manual.nhs.uk/design-system/styles/typography 
+         * https://jhildenbiddle.github.io/docsify-themeable
+         */
         @font-face {
             font-display: swap;
             font-family : "Frutiger W01";
@@ -39,6 +41,7 @@
     <div id="app">Loading, please wait ...</div>
     <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
     <script>
+        // https://docsify.js.org/
         window.$docsify = {
             name: 'NHSEI IT Standards',
             repo: 'nhsengland/it-standards',
@@ -51,21 +54,15 @@
             // mergeNavbar: true,
             loadSidebar: true,
             alias: {
-               '/.*/_sidebar.md': '/_sidebar.md'
+               '/.*/_sidebar.md': '/_sidebar.md' // use the same sidebar everywhere
             },
             // maxLevel: 4,
-            // subMaxLevel: 2,
-            //search: 'auto',
+            subMaxLevel: 2,
             search: {
                 depth      : 3,
                 noData     : 'No results!',
                 placeholder: 'Search...'
             },
-
-            // themeable: {
-            //     readyTransition : true, // default
-            //     responsiveTables: true,  // default
-            // },
 
             pagination: {
                 // previousText: '上一章节',
@@ -75,20 +72,81 @@
             },
 
             plugins: [
-                EditOnGithubPlugin.create(
-                    'https://github.com/nhsengland/it-standards/blob/main/docs/'
-                ),
-                function (hook) {
-                    var footer = [
+                EditOnGithubPlugin.create('https://github.com/nhsengland/it-standards/blob/main/docs/'),
+                // Custom plugin
+                function (hook, vm) {
+                    //console.log({hook,vm})
+                    const footer = [
                         '<hr/>',
                         '<footer>',
-                        '<span><a href="https://www.england.nhs.uk">NHS England</a> &copy;2021.</span> ',
-                        '<span>Published with <a href="https://github.com/QingWei-Li/docsify" target="_blank">docsify</a>.</span>',
+                        '<span><a href="https://www.england.nhs.uk">NHS England</a> ',
+                        '', // per-page - (c) and date
+                        '.</span> ',
+                        '<span>Published with <a href="https://docsify.js.org/" target="_blank">docsify</a>.</span> ',
                         '</footer>'
-                    ].join('')
+                    ]
 
-                    hook.afterEach(function (html) {
-                        return html + footer
+                    const stages = {
+                        '1': '1. Proposal Stage<br>Proposals may be raised via GitHub Issues. Initial discussions will happen under the Issue or offline.',
+                        '2': '2. Response Stage<br>After initial proposal discussion, if accepted, it will move on to the development stage.',
+                        // Would only expect to see 3/4/5 in actual standards documents
+                        '3': '3. Development Stage<br>Development stage documents are incomplete and in-progress. They are actively looking for feedback.',
+                        '4': '4. Final Approval Stage<br>Once a PR has been issued, a final check will be done and approval will be given or minor changes requested.',
+                        '5': '5. Live<br>Live standards are under change control. Suggested changes must go through the contribution stages again.',
+                    }
+
+                    // Runs against the raw markdown for each page
+                    hook.beforeEach(function(content) {
+                        if ( vm.frontmatter ) { // fm only exists per page, requires plugin
+                            //#region --- Add front-matter (YAML) standard metadata to each page if present ---
+                            if ( vm.frontmatter.description ) {
+                                content = `${vm.frontmatter.description}\n\n${content}`
+                            }
+
+                            if ( vm.frontmatter.reviewDate ) {
+                                if ( (new Date()) > (new Date(vm.frontmatter.reviewDate)) )
+                                    content = `!> This standard requires a review/update.\n\n${content}`
+                            }
+
+                            if ( vm.frontmatter.stage ) {
+                                content = `?> ${stages[vm.frontmatter.stage.substring(0,1)]}\n\n${content}`
+                            }
+
+                            if ( vm.frontmatter.title ) {
+                                content = `# ${vm.frontmatter.title}\n\n${content}`
+                            }
+                            //#endregion ---  ---
+
+                            //#region --- Add page specific (c) and last updated date to each page if available from YAML front-matter ---
+                            let mydate = false
+                            let yearFrom = 2021
+                            let yearTo = 2021
+
+                            if ( vm.frontmatter.created ) {
+                                mydate = new Date(vm.frontmatter.created)
+                                yearFrom = mydate.getFullYear()
+                            }
+
+                            if ( vm.frontmatter.lastUpdated ) {
+                                mydate = new Date(vm.frontmatter.lastUpdated)
+                                yearTo = mydate.getFullYear()
+                            }
+
+                            if ( mydate === false ) {
+                                footer[3] = '&copy; 2021'
+                            } else {
+                                let strYr = '2021'
+                                if ( yearFrom !== yearTo ) strYr = yearFrom + '-' + yearTo
+                                footer[3] = `&copy; ${strYr}. Last updated: ${mydate.toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' })}`
+                            }
+                            //#endregion ---  ---
+                        } // ---- End of if front-matter ---- //
+                        return content
+                    }) // ------- End of Custom Plugin ------- //
+
+                    // Runs against the rendered HTML for each page
+                    hook.afterEach(function (html, next) {
+                        next( html + footer.join('') )
                     })
                 },
             ],
@@ -97,5 +155,8 @@
     <script src="//cdn.jsdelivr.net/npm/docsify@latest"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-themeable@latest/dist/js/docsify-themeable.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/front-matter.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-mustache"></script> <!-- https://ppipada.github.io/post/markdown/2020-04-29-docsify-mustache/ -->
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!--<script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>-->
 </body></html>

@@ -7,10 +7,6 @@ created: 2021-04-28 10:00:00
 lastUpdated: 2021-04-28 13:33:00
 ---
 
-# Standards for system authentication
-
-Status: TBC - not yet complete.
-
 In general, **all** systems MUST require a login. Only systems delivering _public_ information will be accessible without a login.
 
 Please refer to the Identity and Access Management strategy and standards before trying to implement a new system. 

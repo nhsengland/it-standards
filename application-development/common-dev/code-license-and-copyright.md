@@ -1,6 +1,14 @@
-# Copyright and Licensing for Code and Documentation
+---
+title: Copyright and Licensing for Code and Documentation
+description: >
+   Describes what licenses and copyright must be applied to all developments.
+stage: 5. Live
+created: 2020-12-03
+lastUpdated: 2021-06-10 17:16:15
+reviewDate: 2022-12-31
+---
 
-As a general standard, all code and associated documentation produced by and on behalf of (however commissioned) must be dual licensed under MIT and OGL v3.
+As a general standard, all code and associated documentation produced by and on behalf of (however commissioned) must be **dual licensed under MIT and OGL v3**.
 
 All code and documentation will have Crown Copyright.
 

@@ -7,8 +7,6 @@ created: 2021-06-08 17:21:47
 lastUpdated: 2021-06-08 17:54:12
 ---
 
-# Common Applications Development Standards
-
 Please note that ALL application development in NHS England and NHS Improvement is subject to the IT Requests & Approvals process.
 
 No development may be started or considered without informing IT PMO so that it can be reviewed. You can then be supported through the

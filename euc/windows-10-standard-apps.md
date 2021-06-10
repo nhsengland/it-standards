@@ -5,13 +5,8 @@ description: >
 stage: 3. Development Stage
 created: 2020-06-15 10:00:00
 lastUpdated: 2020-06-19 21:46:45
+reviewDate: 2021-01-01
 ---
-
-# Windows 10 Standard Applications
-
-**Documentation Stage**: 3. Development Stage
-
-> Development stage documents are incomplete and in-progress. They are actively looking for feedback.
 
 These are the standard applications that users can expect to have on their Windows 10 desktop OS.
 

@@ -7,8 +7,6 @@ created: 2021-06-08 17:21:47
 lastUpdated: 2021-06-08 18:07:23
 ---
 
-# Business Applications Development Standards
-
 Business applications are bespoke applications developed on corporate/business platforms and will typically use C#, C++, Visual Basic.net, SQL Server, etc. 
 
 They may be hosted on-premise or in the cloud. However, please read the [Infrastructure Standards](/infrastructure) for requirements regarding hosting.
