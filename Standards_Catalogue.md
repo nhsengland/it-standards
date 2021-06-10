@@ -1,57 +1,68 @@
 # Catalogue of IT Standards for NHS England and NHS Improvement
 
-## [Application Development Standards](./application-development/readme)
+- **[Application Development Standards](./application-development/readme)**
+  
+  - [Common Application Development Standards](./application-development/common-dev/readme)
 
-### [Common Application Development Standards](./application-development/common-dev/readme)
+    These apply to all development.
 
-These apply to all development.
+    - [Authentication](application-development/common-dev/authentication)
+    - [License and Copyright](application-development/common-dev/code-license-and-copyright)
 
-### [Business Applications Development](./application-development/business-dev/readme)
+  - [Business Applications Development](./application-development/business-dev/readme)
 
-Business applications are bespoke applications developed on corporate/business platforms and will typically use C#, C++, Visual Basic.net, SQL Server, etc. They may be hosted on-premise or in the cloud.
+    Business applications are bespoke applications developed on corporate/business platforms and will typically use C#, C++, Visual Basic.net, SQL Server, etc. They may be hosted on-premise or in the cloud.
 
-### [Internet Applications Development](./application-development/internet-dev/readme)
+  - [Web Applications Development](./application-development/web-dev/readme)
 
-Internet applications are mostly Internet facing, they may be public or private. They are developed using Internet standards such as HTML, CSS, JavaScript, etc.
+    Internet applications are mostly Internet facing, they may be public or private. They are developed using Internet standards such as HTML, CSS, JavaScript, etc.
 
-### [Platform Applications Development](./application-development/platform-dev/readme)
+  - [Platform Applications Development](./application-development/platform-dev/readme)
 
-Platform development refers to developing systems and solutions on existing platforms such as Office 365 or Dynamics 365. It does not refer to cloud platforms such as Azure or AWS since these are infrastructure platforms rather than application platforms.
+    Platform development refers to developing systems and solutions on existing platforms such as Office 365 or Dynamics 365. It does not refer to cloud platforms such as Azure or AWS since these are infrastructure platforms rather than application platforms.
 
-### [Mobile Applications Development](./application-development/mobile-dev/readme)
+  - [Mobile Applications Development](./application-development/mobile-dev/readme)
 
-Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
+    Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
 
-## [End User Compute (EUC)](./euc) - desktop and mobile
+- **[End User Compute (EUC)](./euc)** - desktop and mobile
 
-Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
+  Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
 
-* [Standards for Desktop EUC devices](./euc/desktop-devices.md)
-* [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
+  * [Standards for Desktop EUC devices](./euc/desktop-devices.md)
+  * [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
+  * [User Types](euc/user-types)
 
-## [Identity and Access Management](./idam)
 
-Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
+- **[Identity and Access Management](./idam)**
 
-## [Infrastructure](./infrastructure) - cloud and on-premise/data centre
+  Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
 
-Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
+  - [As Is](idam/as-is/readme) - How things are at the moment (prior to the implentation of the 2021 IDAM strategy)
+  - [People Database](idam/as-is/it-people-db) - Using the database of staff information
 
-* [Cloud Infrastructure](./infrastructure/cloud)
-* [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
 
-## [Security](./security) - Security and Privacy
+- **[Infrastructure](./infrastructure)** - cloud and on-premise/data centre
 
-Standards related to security and privacy.
+  Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
 
-## Other Applicable UK Government and NHS Standards
+  * [Cloud Infrastructure](./infrastructure/cloud)
+  * [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
 
-All of the standards for NHS England and NHS Improvement are subject to both NHS and UK Government policies, strategies and standards, the key ones of which are listed here.
+- **[Security](./security)** - Security and Privacy
 
-* [NHS Digital Service Manual](https://service-manual.nhs.uk/) - "Use the service manual to build consistent, usable services that put people first.​ Learn from the research and experience of other NHS teams."
-* [Gov.uk Service Manual](https://www.gov.uk/service-manual) - "Helping teams to create and run great public services that meet the [Service Standard](https://www.gov.uk/service-manual/service-standard)". See also the [Government Design Principles](https://www.gov.uk/guidance/government-design-principles) and the [Gov.uk Design System](https://design-system.service.gov.uk/).
-* [Tech Code of Practice]
-* The UK Government **[Tech Vision](https://www.gov.uk/government/publications/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care)** - ‘Standards that meet user needs: we must be clear how these standards address the user needs of people who use health and care services, carers and families, as well as care professionals and commissioners.’
-* The **[NHS Long Term Plan](https://www.longtermplan.nhs.uk/areas-of-work/digital-transformation/)** - ‘Set standards that keep information secure and make sure NHS IT systems talk to each other to provide health and care staff with complete access to joined up patient records.’​
+  Standards related to security and privacy.
 
-The OECD's Observatory of Public Sector Innovation (OPSI) also has a useful [list of worldwide innovation tool-kits](https://oecd-opsi.org/search-toolkits/) that include other governments takes on digital innovation and development.
+  - [TLS Standards](security/tls) - How to properly use Transport Level Security
+
+- **Other Applicable UK Government and NHS Standards**
+
+  All of the standards for NHS England and NHS Improvement are subject to both NHS and UK Government policies, strategies and standards, the key ones of which are listed here.
+
+  * **[NHS Digital Service Manual](https://service-manual.nhs.uk/)** - "Use the service manual to build consistent, usable services that put people first.​ Learn from the research and experience of other NHS teams."
+  * **[Gov.uk Service Manual](https://www.gov.uk/service-manual)** - "Helping teams to create and run great public services that meet the **[Service Standard](https://www.gov.uk/service-manual/service-standard)"**. See also the **[Government Design Principles](https://www.gov.uk/guidance/government-design-principles)** and the **[Gov.uk Design System](https://design-system.service.gov.uk/)**.
+  * **[Tech Code of Practice](https://www.gov.uk/government/publications/technology-code-of-practice/technology-code-of-practice)** - A set of criteria to help government design, build and buy technology. It is a cross-government agreed standard used for the Cabinet Office spend control process and the Local Digital Declaration.
+  * The UK Government **[Tech Vision](https://www.gov.uk/government/publications/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care)** - ‘Standards that meet user needs: we must be clear how these standards address the user needs of people who use health and care services, carers and families, as well as care professionals and commissioners.’
+  * The **[NHS Long Term Plan](https://www.longtermplan.nhs.uk/areas-of-work/digital-transformation/)** - ‘Set standards that keep information secure and make sure NHS IT systems talk to each other to provide health and care staff with complete access to joined up patient records.’​
+
+  The OECD's Observatory of Public Sector Innovation (OPSI) also has a useful [list of worldwide innovation tool-kits](https://oecd-opsi.org/search-toolkits/) that include other governments takes on digital innovation and development.

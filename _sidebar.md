@@ -1,4 +1,4 @@
-[Standards Catalogue](Standards_Catalogue)
+- [Standards Catalogue](Standards_Catalogue)
 
 - Application Development
   
@@ -25,6 +25,7 @@
 
   - [Overview](idam/readme)
   - [As Is](idam/as-is/readme)
+  - [People Database](idam/as-is/it-people-db)
 
 - Infrastructure
 
@@ -37,7 +38,9 @@
   - [Security Overview](security/readme)
   - [TLS Standards](security/tls)
   
-[Contributing](CONTRIBUTING)
-[License and Copyright]()
-[NHS England GitHub](https://nhsengland.github.io/)
-[NHS Design System](https://service-manual.nhs.uk/design-system)
+- [Contributing](CONTRIBUTING)
+
+- **Links**
+  
+- [NHS England GitHub](https://nhsengland.github.io/)
+- [NHS Design System](https://service-manual.nhs.uk/design-system)
