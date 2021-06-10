@@ -1,11 +1,12 @@
-# Internet Development Standards
+# Web Development Standards
 
 _in progress ..._
 
-Note that NO publicly accessible Internet application, site, or service may be developed or deployed without the prior approval of GDS.
+Note that NO publicly accessible web application, site, or service may be developed or deployed without the prior approval of GDS.
+
 ## Core
 
-All Internet application development:
+All web application development:
 
 * MUST follow the [common standards](../common-dev).
 * MUST use the common web development stack defined by NHSEI below.
