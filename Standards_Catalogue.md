@@ -45,7 +45,7 @@ lastUpdated: 2021-06-10 21:35:19
   Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
 
   - [As Is](idam/as-is/readme) - How things are at the moment (prior to the implentation of the 2021 IDAM strategy)
-  - [People Database](idam/as-is/it-people-db) - Using the database of staff information
+  - [People Database](idam/peopledb) - Using the database of staff information
 
 
 - **[Infrastructure](./infrastructure)** - cloud and on-premise/data centre

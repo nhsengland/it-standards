@@ -1,11 +1,19 @@
-# IT People Database
+---
+title: People Database (Staff)
+description: >
+   Standard data for staff information. To be used by all internal systems requiring access to staff data and staff metadata.
+stage: 4. Final Approval Stage
+created: 2020-12-03
+lastUpdated: 2021-06-10 22:26:40
+reviewDate: 2021-05-01
+---
 
-The IT People Database is a collection of tables maintained by Corporate IT that bring together various information about staff and other internal system users
+The People Database is a collection of tables maintained by Corporate IT that bring together various information about staff and other internal system users
 (e.g. contractors, embedded and seconded staff, and other organisations that we provide support for such as NHSX, Leadership Academy, etc).
 
 Any IT system that needs data about internal users can use this database so that a consistent set of information is made available to all systems and services.
 
-In summary, the IT People DB:
+In summary, the People DB:
 
 *	Provides a single, common, reusable dataset for people related data required for many different internal IT systems.
 *	Has a single daily standardised HR data feed for all E&I staff. Processed in an agreed fashion to make sense of the complex data from the Electronic Staff Record system.

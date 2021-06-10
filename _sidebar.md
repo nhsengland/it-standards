@@ -24,8 +24,8 @@
 - Identity &amp; Access Management (IDAM)
 
   - [Overview](idam/readme)
+  - [People Database](idam/peopledb)
   - [As Is](idam/as-is/readme)
-  - [People Database](idam/as-is/it-people-db)
 
 - Infrastructure
 

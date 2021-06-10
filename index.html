@@ -122,7 +122,10 @@
                             }
 
                             if ( vm.frontmatter.stage ) {
-                                content = `?> ${stages[vm.frontmatter.stage.substring(0,1)]}\n\n${content}`
+                                let stage
+                                try {
+                                    content = `?> ${stages[Number.parseInt(vm.frontmatter.stage)]}\n\n${content}`
+                                } catch (e) { }
                             }
 
                             if ( vm.frontmatter.title ) {
