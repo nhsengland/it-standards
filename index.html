@@ -76,13 +76,20 @@
                 // Custom plugin
                 function (hook, vm) {
                     //console.log({hook,vm})
+
+                    const orgName = 'NHS England'
+                    const orgUrl = 'https://www.england.nhs.uk'
+
                     const footer = [
                         '<hr/>',
                         '<footer>',
-                        '<span><a href="https://www.england.nhs.uk">NHS England</a> ',
-                        '', // per-page - (c) and date
-                        '.</span> ',
-                        '<span>Published with <a href="https://docsify.js.org/" target="_blank">docsify</a>.</span> ',
+                        '<span>',
+                        'Copyright &copy; 2021', // per-page - (c) and date
+                        ` <a href="${orgUrl}">${orgName}</a>.`,
+                        '', // updated date
+                        '</span> ',
+                        '',
+                        ' <span>Published with <a href="https://docsify.js.org/" target="_blank">docsify</a>.</span> ',
                         '</footer>'
                     ]
 
@@ -97,6 +104,12 @@
 
                     // Runs against the raw markdown for each page
                     hook.beforeEach(function(content) {
+                        let strYr = (new Date()).getFullYear()
+                        let mydate = false
+                        let yearFrom = 2020
+                        let yearTo = strYr
+                        footer[5] = ''
+
                         if ( vm.frontmatter ) { // fm only exists per page, requires plugin
                             //#region --- Add front-matter (YAML) standard metadata to each page if present ---
                             if ( vm.frontmatter.description ) {
@@ -118,10 +131,6 @@
                             //#endregion ---  ---
 
                             //#region --- Add page specific (c) and last updated date to each page if available from YAML front-matter ---
-                            let mydate = false
-                            let yearFrom = 2021
-                            let yearTo = 2021
-
                             if ( vm.frontmatter.created ) {
                                 mydate = new Date(vm.frontmatter.created)
                                 yearFrom = mydate.getFullYear()
@@ -132,16 +141,23 @@
                                 yearTo = mydate.getFullYear()
                             }
 
-                            if ( mydate === false ) {
-                                footer[3] = '&copy; 2021'
-                            } else {
-                                let strYr = '2021'
-                                if ( yearFrom !== yearTo ) strYr = yearFrom + '-' + yearTo
-                                footer[3] = `&copy; ${strYr}. Last updated: ${mydate.toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' })}`
+                            if ( mydate !== false ) {
+                                if ( yearFrom === yearTo && yearFrom !== Number(strYr) ) {
+                                    strYr = yearFrom
+                                } else if ( yearFrom !== yearTo ) {
+                                    strYr = yearFrom + '-' + yearTo
+                                }
+
+                                footer[5] = ` Last updated ${mydate.toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' })}.`
                             }
                             //#endregion ---  ---
+
                         } // ---- End of if front-matter ---- //
+
+                        footer[3] = `Copyright &copy; ${strYr}`
+
                         return content
+
                     }) // ------- End of Custom Plugin ------- //
 
                     // Runs against the rendered HTML for each page

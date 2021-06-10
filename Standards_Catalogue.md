@@ -1,4 +1,10 @@
-# Catalogue of IT Standards for NHS England and NHS Improvement
+---
+title: Catalogue of IT Standards for NHS England and NHS Improvement
+description: >
+   A list of the available standards.
+created: 2020-06-29
+lastUpdated: 2021-06-10 21:35:19
+---
 
 - **[Application Development Standards](./application-development/readme)**
   

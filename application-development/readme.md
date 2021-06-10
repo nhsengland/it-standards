@@ -7,14 +7,6 @@ created: 2020-11-17 13:23:29
 lastUpdated: 2020-11-18 11:44:12
 ---
 
-# Application Development
-
-**Documentation Stage**: 3. Development Stage
-
-> Development stage documents are accepted. They are being worked on by appropriate SME's.
-
-This category defines the standards for bespoke deveopment in NHS England and NHS Improvement.
-
 Please also see [#Issue 4](https://github.com/nhsengland/it-standards/issues/4) for the proposal for these standards.
 
 Things to cover (in no specific order):
