@@ -54,6 +54,7 @@ lastUpdated: 2021-06-10 21:35:19
 
   * [Cloud Infrastructure](./infrastructure/cloud)
   * [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
+  * [Networks](infrastructure/networks) - Local and Wide-Area Networks (LAN, WAN)
 
 - **[Security](./security)** - Security and Privacy
 
