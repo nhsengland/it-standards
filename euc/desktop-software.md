@@ -90,3 +90,20 @@ overhead to the business while allowing maximum flexibility:
    the users desktop.
    
    The purpose of this category is to provide a good level of business flexibility while maintaining control of costs and other overheads.
+
+## Security & Privacy
+
+Many desktop applications connect to external 3rd-party cloud services. Such applications MUST NOT be used without prior approval from both CISW and IG. Specifically, IT Security checks and Privacy checks will be required.
+
+## Open Source & Free Software
+
+It is UK Government policy that open source applications should be considered wherever feasible.
+
+However, the following things should be considered:
+
+- Open Source does not mean free - organisations and teams should consider investing in open source applications if they are relying on them.
+- Free licenses may not be free for all uses - it is common for applications to have licenses that are free for personal and non-commercial use but charged for other use. It can be debatable as to whether an ALB such as NHSEI would be eligable under non-commercial licensing.
+- Free licenses do not mean that there is no cost - all IT comes with a cost. It costs money and resources to test, manage, deploy and support.
+- Software suitable for domestic, non-professional use may be considered too risky for professional enterprise use. NHSEI has in excess of 15,000 direct users to service and protect. It also has responsibilities across the NHS (2 million staff, 70 million patients) and the rest of Government along with suppliers and voluntary organisations. We cannot and will not put them at risk.
+- Open source software may require significantly higher levels of administration than commercial software. This can make it uneconomic despite being "free".
+
