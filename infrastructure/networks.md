@@ -23,7 +23,10 @@ Note that networking for NHSEI is subject to the requirements of the _DSP Toolki
 
 ## Local-Area Networking
 
-- 
+- All network wiring and switches MUST be at least 100Mbps and should be 1Gbps.
+- All LAN hardware should use SD-LAN technology.
+- All sites MUST have an edge firewall. This MUST be a centrally managed, SD-network device.
+- Site firewalls SHOULD NOT be individually configured. A single, central configuration should be used.
 
 ### Corporately provisioned Wi-Fi
 
