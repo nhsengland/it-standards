@@ -8,7 +8,7 @@ lastUpdated: 2021-06-14 17:30:39
 reviewDate: 2022-05-01
 ---
 
-Note that networking for NHSEI is subject to the requirements of the _DSP Toolkit_ and _Cyber Essentials Plus_ certification.
+Note that networking for NHSEI is subject to the requirements of the _[DSP Toolkit](https://www.dsptoolkit.nhs.uk/)_ and _[Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview)_ certification.
 
 ## General
 
