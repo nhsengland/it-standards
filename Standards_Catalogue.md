@@ -14,6 +14,8 @@ lastUpdated: 2021-06-10 21:35:19
 
     - [Authentication](application-development/common-dev/authentication)
     - [License and Copyright](application-development/common-dev/code-license-and-copyright)
+    - [Security](application-development/common-dev/security)
+    - [Testing](application-development/common-dev/testing)
 
   - [Business Applications Development](./application-development/business-dev/readme)
 
@@ -60,6 +62,8 @@ lastUpdated: 2021-06-10 21:35:19
 
   Standards related to security and privacy.
 
+  - [Cloud Apps & Services Guidance](security/acceptable-cloud-tools)
+  - [Guidance for using Open Internet Tools](security/guidance-for-using-open-internet-tools)
   - [TLS Standards](security/tls) - How to properly use Transport Level Security
 
 - **Other Applicable UK Government and NHS Standards**
@@ -73,5 +77,6 @@ lastUpdated: 2021-06-10 21:35:19
   * The **[NHS Long Term Plan](https://www.longtermplan.nhs.uk/areas-of-work/digital-transformation/)** - ‘Set standards that keep information secure and make sure NHS IT systems talk to each other to provide health and care staff with complete access to joined up patient records.’​
   *  **[DSP Toolkit](https://www.dsptoolkit.nhs.uk/)** - "an online self-assessment tool that allows organisations to measure their performance against the National Data Guardian’s 10 data security standards. All organisations that have access to NHS patient data and systems must use this toolkit to provide assurance that they are practising good data security and that personal information is handled correctly."
   *  **[Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview)** - "a simple but effective, Government backed scheme that will help you to protect your organisation, whatever its size, against a whole range of the most common cyber attacks." All NHS organisations are now required to be certified to CE+.
+  *  **[Government Functional Standard GovS 007: Security](https://www.gov.uk/government/publications/government-functional-standard-govs-007-security)** - "part of a suite of functional standards designed to promote consistent and coherent working within government organisations and across organisational boundaries."
 
   The OECD's Observatory of Public Sector Innovation (OPSI) also has a useful list of **[worldwide innovation tool-kits](https://oecd-opsi.org/search-toolkits/)** that include other governments takes on digital innovation and development.

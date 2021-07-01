@@ -7,6 +7,8 @@
     - [General](application-development/common-dev/readme)
     - [Authentication](application-development/common-dev/authentication)
     - [License and Copyright](application-development/common-dev/code-license-and-copyright)
+    - [Security](application-development/common-dev/security)
+    - [Testing](application-development/common-dev/testing)
   - [Business Apps](application-development/business-dev/readme)
   - [Platform Developments](application-development/platform-dev/readme)
   - [Web Apps](application-development/web-dev/readme)
@@ -37,6 +39,8 @@
 - Security
 
   - [Security Overview](security/readme)
+  - [Cloud Apps & Services Guidance](security/acceptable-cloud-tools)
+  - [Guidance for using Open Internet Tools](security/guidance-for-using-open-internet-tools)
   - [TLS Standards](security/tls)
   
 - [Contributing](CONTRIBUTING)
