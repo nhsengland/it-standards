@@ -6,6 +6,7 @@
   - Common Standards
     - [General](application-development/common-dev/readme)
     - [Authentication](application-development/common-dev/authentication)
+    - [Email Integration](application-development/common-dev/email-integration)
     - [License and Copyright](application-development/common-dev/code-license-and-copyright)
     - [Security](application-development/common-dev/security)
     - [Testing](application-development/common-dev/testing)
@@ -20,6 +21,7 @@
   - [Overview](euc/readme)
   - [Desktop Devices](euc/desktop-devices)
   - [Desktop Software](euc/desktop-software)
+  - [End User Email Services](euc/email)
   - [User Types](euc/user-types)
   - [Windows 10 Std Apps](euc/windows-10-standard-apps)
 

@@ -3,7 +3,8 @@ title: Catalogue of IT Standards for NHS England and NHS Improvement
 description: >
    A list of the available standards.
 created: 2020-06-29
-lastUpdated: 2021-06-10 21:35:19
+lastUpdated: 2021-07-06 14:49:20
+author: Julian Knight
 ---
 
 - **[Application Development Standards](./application-development/readme)**
@@ -16,6 +17,7 @@ lastUpdated: 2021-06-10 21:35:19
     - [License and Copyright](application-development/common-dev/code-license-and-copyright)
     - [Security](application-development/common-dev/security)
     - [Testing](application-development/common-dev/testing)
+    - [Email Integration for Business Applications](application-development/common-dev/email-integration)
 
   - [Business Applications Development](./application-development/business-dev/readme)
 
@@ -33,10 +35,12 @@ lastUpdated: 2021-06-10 21:35:19
 
     Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
 
-- **[End User Compute (EUC)](./euc)** - desktop and mobile
+- **[End User Compute (EUC)](./euc/readme)** - desktop and mobile
 
   Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
 
+  * [Desktop Software](euc/desktop-software)
+  * [End User Email Services](euc/email)
   * [Standards for Desktop EUC devices](./euc/desktop-devices.md)
   * [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
   * [User Types](euc/user-types)
