@@ -20,6 +20,16 @@ Either system is certified therefore for the exchange of OFFICIAL-SENSITIVE info
 
 ?> Note that the exchange of OFFICIAL-SENSITIVE information may be subject to other Information Governance policies. If in doubt, please contact your local or national IG representative.
 
+## Acceptible use
+
+The NHSEI and NHS email services are for OFFICIAL NHS business. All emails are subject to the overall Acceptible Use Policy as well as the NHS Digital (for NHSmail) and Microsoft usage policies.
+
+!> Emails sent from an official email service are treated as **legal documents** and are [classified as OFFICIAL](https://www.gov.uk/government/publications/government-security-classifications) unless otherwise marked.
+
+All emails are also subject to the [Standards of Business Conduct Policy](https://www.england.nhs.uk/publication/standards-of-business-conduct-policy/).
+
+If a message you are about to send might cause problems, upset, offence, or embarrassment, it’s not acceptable. Context is important - a message you might think is funny could be upsetting to someone else.
+
 ## Sending limits
 
 Both systems have limits on how much email can be sent. The NHSmail limits are fixed. Some of the NHS England limits may be changable. However, note that both use Office 365 and are therefore subject to those limits as well. Because NHSmail is a single tenancy for over 400 organisations and 2 million people, it is generally subject to stricter limits than our own service.
@@ -37,6 +47,12 @@ Both email systems have an archiving mailbox attached. To use the archive mailbo
 When trying to free space in your main mailbox, note that your "Deleted Items" count towards your mailbox limit. Also note that NHSmail does not immediately free up space even if your deleted items are cleared.
 
 NHSmail accounts normally have a limit of 4GB. NHS England mailboxes have a standard limit of 50GB (which can be changed on request). The archive mailboxes are theoretically "unlimited" but may have practical limits.
+
+## Audit and monitoring
+
+In keeping with UK Government and NHS policy, our end-user email services are subject to audit and monitoring. This may include forensic examination of mailboxes. Access to such audit and monitoring data is tightly controlled to a limited number of security cleared staff who have appropriate training.
+
+While every effort to avoid interaction with personal private information is made, it should be noted that these systems are for OFFICIAL business and subject to the Acceptible Use Policy and terms and conditions of employment.
 
 ## References
 
