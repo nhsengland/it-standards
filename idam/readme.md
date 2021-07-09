@@ -12,7 +12,7 @@ IDAM is broken down into two main areas due to the very complex set of requireme
 
 "Internal" IDAM covers all aspects of staff and contract identities along with access control for services and systems that are largely "internally" facing. Note however, that our systems are rarely _just_ internal or external.
 
-"External" IDAM covers thos services and systems that are primarily for use across the health and social care sector. Staff may have access to these systems but the majority of users will be non-staff. Access may be from across the NHS, local and central government, MOJ, MOD, Police, as well as voluntary sector and patient representatives.
+"External" IDAM covers those services and systems that are primarily for use across the health and social care sector. Staff may have access to these systems but the majority of users will be non-staff. Access may be from across the NHS, local and central government, MOJ, MOD, Police, as well as voluntary sector and patient representatives.
 
 ## Internal
 
