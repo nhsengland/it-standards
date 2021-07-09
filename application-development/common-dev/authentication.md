@@ -4,7 +4,7 @@ description: >
    Defines the standards for authenticating users to bespoke applications.
 stage: 3. Development Stage
 created: 2021-04-28 10:00:00
-lastUpdated: 2021-04-28 13:33:00
+lastUpdated: 2021-07-09 11:12:18
 ---
 
 In general, **all** systems MUST require a login. Only systems delivering _public_ information will be accessible without a login.
@@ -12,11 +12,11 @@ In general, **all** systems MUST require a login. Only systems delivering _publi
 Please refer to the Identity and Access Management strategy and standards before trying to implement a new system. 
 We have a number of options in the strategy depending on the requirements.
 
-Internally facing systems MUST always use Single Sign-On. Contact the Head of Architecture or the Head of Development in the 
-Corporate IT and Smarter Working team (CISW) for more specific information.
+Internally facing systems MUST always use Single Sign-On based on NHS England's **Azure Active Directory** (AAD). 
+Contact the Head of Architecture or the Head of Development in the Corporate IT and Smarter Working team (CISW) for more specific information.
 
-Externally facing systems MUST use our identity service. Contact the Head of Architecture or the Head of Development in the 
-Corporate IT and Smarter Working team (CISW) for more specific information.
+Externally facing systems MUST use our identity service based on **Okta**. 
+Contact the Head of Architecture or the Head of Development in the Corporate IT and Smarter Working team (CISW) for more specific information.
 
 Exceptions to the standards listed here may be permissible but must be discussed with CISW in advance and will be subject to
 review and approval via the Architecture Review Board (ARB).

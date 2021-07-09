@@ -4,7 +4,7 @@ description: >
    Defines the standards that are common to all application development projects.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2021-06-30 17:43:20
+lastUpdated: 2021-07-06 16:38:35
 ---
 
 Please note that ALL application development in NHS England and NHS Improvement is subject to the IT Requests & Approvals process.
@@ -28,9 +28,28 @@ All development:
 * MUST meet WCAG standards for accessibility.
 * SHOULD follow the security guidelines set out by NIST.
 
+## Good Practice
+
+An agile approach to delivery should mean that work initially progresses towards an identified [Minimum Viable Product (MVP)](https://www.agilealliance.org/glossary/mvp/#q=~(infinite~false~filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)). This is a well understood engineering approach to maximise real benefit whilst minimising cost and effort. 
+
+?> Note that an MVP **must** be aimed at getting the _maximum understanding_ about what the target business users/teams/functions **need** rather than minimising delivery.
+
+Any application or system must be engineered for future change, with a development approach that builds-in security, maintainability, and flexibility.
+
+* Develop **[loosely coupled components](https://ieeexplore.ieee.org/abstract/document/6299100)** and services that have [high cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science))
+* Understand and actively manage dependencies
+* Isolate components likely to change or with dependencies that are likely to change
+* [Encapsulate](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) complexity
+* Use **open** data and standards throughout
+* Design, build, and test for **security** at every stage and every level (e.g. from function, through component, to module and system level). Every level must independently and collectively deisgn and build for security
+* Decide on and enforce **standard** tools, libraries and coding style
+* Use DevOps pipelines, and Continual Integration (CI) for regression testing and **[code linting](https://www.perforce.com/blog/qac/what-lint-code-and-why-linting-important)**
+* Design and code "in the open" where feasible. Encourage feedback and raising of issues.
+* Document everything! Agile does not excuse design and development teams from properly documenting and maintaining the documentation. Do, however, use "**[documentation as code](https://technology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/)**" principles to keep documentation agile, maintained, and open.
+
 ## Other
 
-See also the specific development type standards:
+See also the specific development standards:
 
 * [Business Applications Development](./business-dev)
 * [Internet Applications Development](./internet-dev)

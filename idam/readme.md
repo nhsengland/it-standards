@@ -16,14 +16,18 @@ IDAM is broken down into two main areas due to the very complex set of requireme
 
 ## Internal
 
-The strategic tool and ID's for internal use is Azure Active Directory. Any services, systems, or projects wishing to use some different identity MUST gain approval from CISW Architecture, Infrastructure, and Cyber Security (via the Technical Design Authority) as well as from the Architecture Review Board.
+The strategic tool and ID's for internal use is NHS England's **Azure Active Directory** (AAD). 
 
-Active Directory is also available for use but no new systems or services should be designed against it without prior approval.
+Any services, systems, or projects wishing to use some different identity MUST gain approval from CISW Architecture, Infrastructure, and Cyber Security (via the _Technical Design Authority_) as well as from the _Architecture Review Board_.
+
+A data centre based _Active Directory_ is also available for use but no new systems or services should be designed against it without prior approval.
 
 ## Eternal
 
 The strategic approach for systems and services whose users are primarily external is **Okta**.
 
-The instance of Okta often referred to as "The Insights Platform", will be the primary focus. However, a secondary instance that is set up in a more traditional mode is also available. As of 2021-06, this is only currently used for the NHSEI Service Now platform which has a hybrid of federated identities.
+The instance of Okta previously referred to as "The Insights Platform", will be the primary focus. 
 
-Any designs wishing to use alternative identity or access control provision MUST gain pre-approval before starting the design process. Approval is via at least the TDA and ARB boards.
+However, a secondary instance that is set up in a more traditional mode is also available. As of 2021-06, this is only currently used for the NHSEI Service Now platform which has a hybrid of federated identities.
+
+Any designs wishing to use alternative identity or access control provision MUST gain pre-approval before starting the design process. Approval is via at least the _Technical Design Authority_ (TDA) and _Architecture Review Board_ (ARB).
