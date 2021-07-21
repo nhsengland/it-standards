@@ -24,7 +24,7 @@ This guidance gives you:
 
 Open Internet Tools (OITs) are applications or services from suppliers outside the NHS. They often have the following characteristics:
 
-- They are general purpose. This means they are not specific to the MoJ. Other organisations can use them.
+- They are general purpose. This means they are not specific to the NHSEI. Other organisations can use them.
 - They are accessed using the Internet, usually through a web browser. This means that if you have Internet access, you are able to connect to the tools.
 - They have a basic 'free-to-use' version. This means that you are able to use some or all the capabilities, but with some constraints. For example, an online word-processor might limit you to 5 documents in your account.
 - They have one or more 'paid for' versions. By paying for the tool, you unlock some or all the constraints.

@@ -61,17 +61,17 @@ Laws and regulations make NHS England, NHS Improvement and its employees respons
 -   Data Protection Act and General Data Protection Regulation.
 -   Public Records Acts.
 
-When we receive a request for information, we need to know where we hold all the relevant information. Storing business information on appropriate MoJ systems helps us, because:
+When we receive a request for information, we need to know where we hold all the relevant information. Storing business information on appropriate corporate systems helps us, because:
 
 -   We can provide evidence about decisions.
 -   We understand the information held, and where to find it.
 -   We can transfer records to The National Archives.
 
-Therefore, always store NHS information in NHS systems. If you use a tool for work tasks, make sure the key information is stored in an appropriate NHS system. Guidance on what you must keep is available on the Intranet [here](https://intranet.justice.gov.uk/guidance/knowledge-information/managing-information/keeping-deleting-disclosing-info/). At regular and convenient intervals, transfer the information to an appropriate NHS system. Do the same when you finish the work. Don't forget to remove any redundant information from a tool by clearing or deleting data if it has been preserved in an NHS system.
+Therefore, always store NHS information in NHS systems. If you use a tool for work tasks, make sure the key information is stored in an appropriate NHS system. Guidance on what you must keep is available on the Intranet, search for "Records Management" . At regular and convenient intervals, transfer the information to an appropriate NHS system. Do the same when you finish the work. Don't forget to remove any redundant information from a tool by clearing or deleting data if it has been preserved in an NHS system.
 
 Many tools lets you export your data. You can then store it on an appropriate NHS system. Sometimes it's easier to copy and paste text into a new document. Make sure that only the correct people have access to the information. This is important after staff or organisational changes, for example.
 
-For more guidance, read the [Information Management](https://intranet.justice.gov.uk/guidance/knowledge-information/managing-information/) section on the Intranet. There is also help on [responding to requests for information](https://intranet.justice.gov.uk/guidance/knowledge-information/providing-information-to-the-public/freedom-of-information/).
+For more guidance, read the Records Management and Freedom of Information sections on the Intranet.
 
 ## Acceptable Use
 
@@ -93,14 +93,19 @@ The bottom line is:
 
 These are the preferred corporate tools for communications and collaboration. These should always be used by preference. They are secured to NHS and UK Government approved levels, have audit capabilities, backup and retention data policies and are generally centrally funded.
 
+<!-- Editors Note: Tables are best edited in Typora or an equivalent WYSIWYG tool -->
+
 |Tool name|Tool type|Notes|Accessing /installing tool|Audience|
 |---------|---------|--------------------------|--------|---------|
-|Office 365|Comms, collaboration, information management|O365 is the strategic Information Management and Unified Communications *platform* for NHSEI. It encompasses many powerful tools and is highly integrated.<br />Note that NHSEI uses its own O365 tenancy and not the NHSmail tenancy. *Please check that you are using the correct tenancy.*|Office client apps are pre-installed on all corporate PC's. The equivalent mobile apps are available from the business app store|Internal/External|
-|Microsoft Teams|Communication and collaboration tool: Video and/or voice|Teams is the strategic unified communications and collaboration tool in use at NHSEI. It should be used for the majority of communications, and meetings.|Pre-installed on all corporate PC's, Web browser, iPhone app available from business app store (no separate Apple ID needed)|Internal/External|
-|Yammer|Discussion tool|Yammer is the primary NHSEI "casual" text communications and collaboration tool. It is designed to facilitate "watering hole" and subject specific discussions.|Web browser|Dedicated app on device|
+|Office 365|Comms, collaboration, information management|O365 is the strategic Information Management and Unified Communications *platform* for NHSEI. It encompasses many powerful tools and is highly integrated.<br />Note that NHSEI uses its own O365 tenancy and not the NHSmail tenancy. *Please check that you are using the correct tenancy.*|Office client apps are pre-installed on all corporate PC's. The equivalent mobile apps are available from the business app store.<br />Only use @england.nhs.uk account, not @nhs.net|Internal/External|
+|Microsoft Teams|Communication and collaboration tool: Video and/or voice|Teams is the strategic unified communications and collaboration tool in use at NHSEI. It should be used for the majority of communications, and meetings.|Pre-installed on all corporate PC's, Web browser, iPhone app available from business app store (no separate Apple ID needed)<br />Only use @england.nhs.uk account, not @nhs.net|Internal/External|
+|Yammer|Discussion tool|Yammer is the primary NHSEI "casual" text communications and collaboration tool. It is designed to facilitate "watering hole" and subject specific discussions.|Web browser<br />Only use @england.nhs.uk account, not @nhs.net|Dedicated app on device|
 |FutureNHS|Discussion and Collaboration tool|fNHS is the strategic collaboration and discussion tool for the NHS. For NHSEI users, if you need a forum to collaborate mainly externally, this is the tool to use otherwise please use Teams.|Web browser|Internal/External|
 |[Citizen Space](https://www.engage.england.nhs.uk/)|Surveys and consultations|A national service for running surveys and getting consultation information.|Web browser. Please contact the NHSEI Digital Communications team if you wish to run a survey.|Internal/External|
-|Signal|Communication tool: Text, voice, video|The approved backup and high-security communications tool. Teams should always be used for the majority of communications but Signal can be used if Teams is unavailable or if communications of particular sensitivity are required.<br />Bear in mind that no audit trail of use is possible. You are personally responsible for keeping appropriate records of communications.<br />Note that a mobile phone number is required.|Web browser, smartphone app|Internal/External|
+|Signal|Communication tool: Text, voice, video|Backup for Teams.<br />The approved *backup* and *high-security* communications tool. Teams should always be used for the majority of communications but Signal can be used if Teams is unavailable or if communications of particular sensitivity are required.<br />Bear in mind that no audit trail of use is possible. You are personally responsible for keeping appropriate records of communications.<br />Note that a mobile phone number is required.|Web browser, smartphone app|Internal/External|
+|Menti|Realtime meeting feedback|An interactive presentation tool that allows users to engage their audiences in real time with polls, quizes, Q&A, etc.|Web browser. Please contact the Smarter Working team for corporate licensing.|Internal/External|
+|Mural|Collaboration tool: Whiteboarding|Interactive whiteboard, collaborative diagrams, brainstorming, etc.|Web browser. A limited number of licenses may be available from the Smarter Working team.<br />While a client app is available, it is not packaged for use and does not provide anything over browser use.|Internal/External|
+|Docusign|Electronic signatures|Add verified electronic signatures to documents and request signed documents from other people.<br />Please note that emails sent from either of our corporate email accounts (Office 365 and NHSmail) are treated as legal documents in the same fashion as FAX's. Therefore, document signing is often unnecessary.|Web browser. A limited number of licenses may be available from the Smarter Working team.|Internal/External|
 
 Please refer to the Unified Communications Strategy on the Intranet for more details.
 
@@ -111,26 +116,27 @@ The following tools are known to be in use and have at least tacit approval with
 |Tool name|Tool type|Conditions/ constraints on use|Accessing /installing tool|Audience|
 |---------|---------|------------------------------|--------------------------|--------|
 |Apple Facetime|Communication tool: Video|Avoid personal or sensitive data|Smartphone App (personal Apple ID required)|External|
-|Apple iMessage|Text messaging|Avoid personal or sensitive data|Smartphone App (personal Apple ID required)|External|
-|Google Meet \(was Google Hangouts\)|Communication tool: Video and/or voice|Only approved for business use if you have a G-Suite ***Enterprise*** license (NHSX). Otherwise, avoid personal or sensitive data| Web browser. Smartphone App (personal Apple ID required)   |External (and NHSX)|
-|Miro|Collaboration tool: Whiteboarding|Avoid personal or sensitive data|Web browser|Internal/External|
-|Mural|Collaboration tool: Whiteboarding|Avoid personal or sensitive data|Web browser. A limited number of licenses may be available from the Smarter Working team|Internal/External|
+|Apple iMessage|Text messaging|Avoid personal or sensitive data<br />**WARNING: There are a number of known vulnerabilities in iMessage that may open up phones for monitoring and malware. Avoid where possible.**|Smartphone App (personal Apple ID required)|External|
+|Facebook Workplace|Text messaging, Voice/Video calls, etc.|Avoid personal or sensitive data<br />*Approved for business use **only** in NHSX*. Use Teams instead.|Web browser|Internal|
+|Google Meet \(was Google Hangouts\)|Communication tool: Video and/or voice|Only approved for business use **only** if you have a G-Suite ***Enterprise*** license (NHSX). Otherwise, avoid personal or sensitive data| Web browser. Smartphone App (personal Apple ID required)   |External (and NHSX)|
+|Miro|Collaboration tool: Whiteboarding|Avoid personal or sensitive data<br />*Please consider using Mural instead which has some corporate support and licensing.*|Web browser|Internal/External|
 |Skype for Business|Communication tool: Video and/or voice|Teams should be used instead of SfB however it can be used if needed|Web browser (some corporate PC's may have this installed but it will be removed over time)|External|
 |Slack|Text messaging, Voice/Video calls, etc.|Avoid personal or sensitive data| Web browser                                                  |Internal/External|
-|Slido|Q&A tool during presentations|Avoid personal or sensitive data|Web browser|Internal|
+|Slido|Q&A tool during presentations|Avoid personal or sensitive data.<br />*Avoid for corporate use, Menti is available instead.*|Web browser|Internal|
 |Twitter|Text Messaging, Video transmission|There is an official NHS England Twitter account.<br />Using a personal account to comment on work related issues is fine as long as you follow the NHSEI Social Media and [Standards of Business Conduct](https://www.england.nhs.uk/publication/standards-of-business-conduct-policy/) Policies.|Web browser, Smartphone App (personal Apple ID required)|Internal/External|
-|WhatsApp|Text messaging, Voice/Video calls|Avoid personal or sensitive data.<br />Should not be used for official business since there is no audit capability or records management.|Web browser, Smartphone App (personal Apple ID required)|Internal/External|
-|YouTube|Video sharing tool: Video, streaming and chat|Avoid personal or sensitive data.<br />Uploading of official videos must go through the Corporate Communications team.|Web browser based use.|Internal/External|
-|Zoom|Communication tool: Video, voice and chat|Avoid personal or sensitive data.<br />Zoom may be used to participate in meetings arranged by other organisations but it must not be used to facilitate meetings by NHSEI, Teams must be used for that.|Web browser based use. *The Zoom client is not available on corporate PC's.*|External meetings|
+|WhatsApp|Text messaging, Voice/Video calls|Avoid personal or sensitive data.<br />*Should not be used for official business since there is no audit capability or records management.*|Web browser, Smartphone App (personal Apple ID required)|Internal/External|
+|YouTube|Video sharing tool: Video, streaming and chat|Avoid personal or sensitive data.<br />*Uploading of official videos must go through the Corporate Communications team.*|Web browser based use.|Internal/External|
+|Zoom|Communication tool: Video, voice and chat|Avoid personal or sensitive data.<br />Zoom may be used to participate in meetings arranged by other organisations but *it must not be used to facilitate meetings by NHSEI*, Teams must be used for that.|Web browser based use. *The Zoom client is not available on corporate PC's.*|External meetings|
 
 ## Unapproved tools
 
 The following tools MUST NOT be used on corporate devices or for business use.
 
-| Tool name                     | Tool type    | Conditions/ constraints on use                               |
-| ----------------------------- | ------------ | ------------------------------------------------------------ |
-| WeTransfer                    | File sharing | MUST NOT be used due to concerns over privacy and security.  |
-| Facebook & Facebook Messenger | Social Media | These MUST NOT be used on corporate devices as they have known privacy issues. They MUST NOT be used for business communications (there is an exception for an official Facebook account in use by the Corporate Communications team). |
+| Tool name                               | Tool type                              | Conditions/ constraints on use                               |
+| --------------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
+| WeTransfer                              | File sharing                           | MUST NOT be used due to concerns over privacy and security.  |
+| Facebook & Facebook Messenger           | Social Media                           | These MUST NOT be used on corporate devices as they have known privacy issues. They MUST NOT be used for business communications (there is an exception for an official Facebook account in use by the Corporate Communications team). |
+| Skype (different to Skype for Business) | Communication tool: Video and/or voice | MUST NOT be used for any business use. No longer needed even for calls with private individuals since Teams is now available for consumers on free services. |
 
 ## NHS Track and Trace
 
@@ -148,8 +154,8 @@ You might have both a personal and an NHSEI issued device. Think about which dev
 
 To reduce the likelihood of false alerts on the app, turn off the app's Bluetooth mode. Do this when:
 
--   You are working in environments with protective Covid measures in-place, for example plexiglass separators.
--   You need to leave your personal or work device in a locker, for example during a sports activity or to work in a secure MoJ facility.
+-   You are working in environments with protective COVID-19 measures in-place, for example plexiglass separators.
+-   You need to leave your personal or work device in a locker, for example during a sports activity or to work in a secure facility.
 
 ## Other tools
 
@@ -178,3 +184,4 @@ The app will be reviewed, to check things like how safe it is to use, and whethe
 * [Secure communications principles](https://www.ncsc.gov.uk/guidance/secure-communication-principles-alpha-release)
 
 * [Using third-party applications](https://www.ncsc.gov.uk/collection/mobile-device-guidance/using-third-party-applications)
+
