@@ -19,11 +19,12 @@ Proposals will be reviewed on fit to policies, strategies and standards; resourc
 
 All development:
 
-* MUST NOT START unless clearly defined scope, requirements, resources (including both business and technical stakeholders), and plans are available.
-* MUST follow the [common standards](../common-dev)
+* MUST NOT START unless clearly defined scope, requirements, budgets, resources (including both business and technical stakeholders), and plans are available.
+* MUST follow the [common](../common-dev) and other development standards in this repository.
+* MUST follow the NHSEI [Identity and Access Management](../../idam/readme) and [Security](../../security/readme.md) standards in this repository.
 * MUST use open standards wherever possible.
 * MUST use the [standard license and copyright](./code-license-and-copyright.md).
-* MUST follow the NHS and UK Government (Cabinet Office Government Digital Service) Design Manual's.
+* MUST follow the [NHS](https://service-manual.nhs.uk/) and [UK Government](https://www.gov.uk/service-manual) (Cabinet Office Government Digital Service) Design Manual's.
 * MUST follow the security guidelines set out by the National Cyber Security Centre (NCSC).
 * MUST meet WCAG standards for accessibility.
 * SHOULD follow the security guidelines set out by NIST.
