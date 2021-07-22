@@ -2,9 +2,10 @@
 title: Cloud Apps and Services Guidance
 description: >
    General security guidance on the use of cloud-based desktop and web-based tools
-stage: 3. Development Stage
+stage: 5. Live
+reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2021-07-01 14:09:34
+lastUpdated: 2021-07-22 17:07:32
 author: Julian Knight
 ---
 
