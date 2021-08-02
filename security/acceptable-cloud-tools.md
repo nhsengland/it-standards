@@ -5,7 +5,7 @@ description: >
 stage: 5. Live
 reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2021-07-22 17:07:32
+lastUpdated: 2021-08-02 13:15:36
 author: Julian Knight
 ---
 
@@ -125,6 +125,7 @@ The following tools are known to be in use and have at least tacit approval with
 |Slack|Text messaging, Voice/Video calls, etc.|Avoid personal or sensitive data| Web browser                                                  |Internal/External|
 |Slido|Q&A tool during presentations|Avoid personal or sensitive data.<br />*Avoid for corporate use, Menti is available instead.*|Web browser|Internal|
 |Twitter|Text Messaging, Video transmission|There is an official NHS England Twitter account.<br />Using a personal account to comment on work related issues is fine as long as you follow the NHSEI Social Media and [Standards of Business Conduct](https://www.england.nhs.uk/publication/standards-of-business-conduct-policy/) Policies.|Web browser, Smartphone App (personal Apple ID required)|Internal/External|
+|Trello|Web-based, Kanban-style, list-making|Not cleared for OFFICIAL use. Avoid personal or sensitive data.<br />Data is based in USA.<br />**WARNINGS**: <br />1) Tools from Atlassian including Trello may track a lot of personal data which may be passed to 3rd-party advertisers and trackers. <br />2) Vendor admins have access to the data you put into Trello.<br />3) The use of "Power-Ups" may transfer data to other parties with different privacy statements.|Web browser<br />Paid-for accounts available to NHSX users.|Internal/External|
 |WhatsApp|Text messaging, Voice/Video calls|Avoid personal or sensitive data.<br />*Should not be used for official business since there is no audit capability or records management.*|Web browser, Smartphone App (personal Apple ID required)|Internal/External|
 |YouTube|Video sharing tool: Video, streaming and chat|Avoid personal or sensitive data.<br />*Uploading of official videos must go through the Corporate Communications team.*|Web browser based use.|Internal/External|
 |Zoom|Communication tool: Video, voice and chat|Avoid personal or sensitive data.<br />Zoom may be used to participate in meetings arranged by other organisations but *it must not be used to facilitate meetings by NHSEI*, Teams must be used for that.|Web browser based use. *The Zoom client is not available on corporate PC's.*|External meetings|
