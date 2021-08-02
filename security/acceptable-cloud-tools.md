@@ -5,7 +5,7 @@ description: >
 stage: 5. Live
 reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2021-08-02 13:15:36
+lastUpdated: 2021-08-02 13:27:53
 author: Julian Knight
 ---
 
@@ -98,7 +98,7 @@ These are the preferred corporate tools for communications and collaboration. Th
 
 |Tool name|Tool type|Notes|Accessing /installing tool|Audience|
 |---------|---------|--------------------------|--------|---------|
-|Office 365|Comms, collaboration, information management|O365 is the strategic Information Management and Unified Communications *platform* for NHSEI. It encompasses many powerful tools and is highly integrated.<br />Note that NHSEI uses its own O365 tenancy and not the NHSmail tenancy. *Please check that you are using the correct tenancy.*<br />**Please note that Sway is USA based so should not be used for personal or sensitive data**|Office client apps are pre-installed on all corporate PC's. The equivalent mobile apps are available from the business app store.<br />Only use @england.nhs.uk account, not @nhs.net|Internal/External|
+|Office 365|Comms, collaboration, information management|O365 is the strategic Information Management and Unified Communications *platform* for NHSEI. It encompasses many powerful tools and is highly integrated.<br />Note that NHSEI uses its own O365 tenancy and not the NHSmail tenancy. *Please check that you are using the correct tenancy.*<br />**Please note that Sway is USA based so should not be used for personal or sensitive data**|Office client apps are pre-installed on all corporate PC's. The equivalent mobile apps are available from the business app store.<br />Only use @england.nhs.uk account, not @nhs.net<br />All NHSEI staff are licensed for use of O365.|Internal/External|
 |Microsoft Teams|Communication and collaboration tool: Video and/or voice|Teams is the strategic unified communications and collaboration tool in use at NHSEI. It should be used for the majority of communications, and meetings.|Pre-installed on all corporate PC's, Web browser, iPhone app available from business app store (no separate Apple ID needed)<br />Only use @england.nhs.uk account, not @nhs.net|Internal/External|
 |Yammer|Discussion tool|Yammer is the primary NHSEI "casual" text communications and collaboration tool. It is designed to facilitate "watering hole" and subject specific discussions.|Web browser<br />Only use @england.nhs.uk account, not @nhs.net|Dedicated app on device|
 |FutureNHS|Discussion and Collaboration tool|fNHS is the strategic collaboration and discussion tool for the NHS. For NHSEI users, if you need a forum to collaborate mainly externally, this is the tool to use otherwise please use Teams.|Web browser|Internal/External|
@@ -110,9 +110,11 @@ These are the preferred corporate tools for communications and collaboration. Th
 
 Please refer to the Unified Communications Strategy on the Intranet for more details.
 
+Note that the enterprise version of G-Suite is in use by NHSX. This is not approved for general NHSEI use, please use Office 365 for which everyone is licensed. Note that non-enterprise versions of G-Suite must not be used for OFFICIAL use.
+
 ## Approved tools
 
-The following tools are known to be in use and have at least tacit approval within the constraints indicated. Unless otherwise indicated, no central license funding is available for these. If licensed versions are required, a separate business case will be required that will need to be approved by IT, IG and Security.
+The following tools are known to be in use and have at least tacit approval *within the constraints indicated*. Unless otherwise indicated, no central license funding is available for these. If licensed versions are required, a separate business case will be required that will need to be approved by IT, IG and Security.
 
 |Tool name|Tool type|Conditions/ constraints on use|Accessing /installing tool|Audience|
 |---------|---------|------------------------------|--------------------------|--------|
@@ -136,9 +138,10 @@ The following tools MUST NOT be used on corporate devices or for business use.
 
 | Tool name                               | Tool type                              | Conditions/ constraints on use                               |
 | --------------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
-| WeTransfer                              | File sharing                           | MUST NOT be used due to concerns over privacy and security.  |
 | Facebook & Facebook Messenger           | Social Media                           | These MUST NOT be used on corporate devices as they have known privacy issues. They MUST NOT be used for business communications (there is an exception for an official Facebook account in use by the Corporate Communications team). |
+| Google G-Suite                          | Collaboration, email, online storage   | G-Suite (including Google Drive, Gmail, etc) MUST NOT be used for OFFICIAL business with the exception of NHSX who use an enterprise version that has additional auditing and security in place. Microsoft Office 365 provides more capabilities and all NHSEI users are automatically licensed on joining the organisation. |
 | Skype (different to Skype for Business) | Communication tool: Video and/or voice | MUST NOT be used for any business use. No longer needed even for calls with private individuals since Teams is now available for consumers on free services. |
+| WeTransfer                              | File sharing                           | MUST NOT be used due to concerns over privacy and security.  |
 
 ## NHS Track and Trace
 
