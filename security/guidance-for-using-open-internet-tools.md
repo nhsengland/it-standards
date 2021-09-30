@@ -5,7 +5,7 @@ description: >
 stage: 5. Live
 reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2021-07-22 17:08:58
+lastUpdated: 2021-09-30 11:32:23
 ---
 
 Please note that this guidance is based on [that of the Ministry of Justice](https://ministryofjustice.github.io/security-guidance/guidance-for-using-open-internet-tools) and adapted for use at NHSEI.
@@ -47,6 +47,7 @@ To help you decide if you can use an OIT to work on an NHS task, consider the fo
    - published in the media.
 - Are you prevented from exporting all the data from the tool?
 - Are you prevented from deleting all the data from the tool when you finish working on the task?
+- Is the tool **[accessible](../application-development/common-dev/accessibility.md)**? It is a legal and moral requirement that tools we use MUST be accessible to all.
 
 If the answer to *any* of these questions is “Yes”, you might not be able to use the OIT.
 

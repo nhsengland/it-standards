@@ -5,7 +5,7 @@ description: >
 stage: 5. Live
 reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2021-08-02 13:27:53
+lastUpdated: 2021-09-30 11:32:12
 author: Julian Knight
 ---
 
@@ -89,6 +89,12 @@ Be sensible when using tools for NHS and UK Government business purposes:
 The bottom line is:
 
 > If there is doubt, there is no doubt - ask for help!
+
+## Accessibility
+
+All tools in use in NHSE, NHSI and NHSX MUST be accessible to all. This is both a legal and moral requirement.
+
+Please see the [accessibility document in the development section](../application-development/common-dev/accessibility.md) for more information regarding standards that must be met.
 
 ## Corporate tools
 
