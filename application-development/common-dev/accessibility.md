@@ -1,10 +1,11 @@
 ---
 title: Accessibility
 description: >
-   
+   All applications, systems and services in use at NHSEI and NHSX must be accessible to all. This standard provides pointers to what that means
+   and what responsibilities developers, documentors, implementors and vendors have.
 stage: 3. Development Stage
 created: 2021-09-30 10:35:48
-lastUpdated: 2021-09-30 10:35:54
+lastUpdated: 2021-09-30 14:52:02
 author: Julian Knight
 ---
 
