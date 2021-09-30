@@ -94,7 +94,7 @@ The bottom line is:
 
 All tools in use in NHSE, NHSI and NHSX MUST be accessible to all. This is both a legal and moral requirement.
 
-Please see the [accessibility document in the development section](../application-development/common-dev/accessibility.md) for more information regarding standards that must be met.
+Please see the [accessibility document in the development section](application-development/common-dev/accessibility) for more information regarding standards that must be met.
 
 ## Corporate tools
 

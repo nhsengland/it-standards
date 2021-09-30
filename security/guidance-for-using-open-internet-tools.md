@@ -47,7 +47,7 @@ To help you decide if you can use an OIT to work on an NHS task, consider the fo
    - published in the media.
 - Are you prevented from exporting all the data from the tool?
 - Are you prevented from deleting all the data from the tool when you finish working on the task?
-- Is the tool **[accessible](../application-development/common-dev/accessibility.md)**? It is a legal and moral requirement that tools we use MUST be accessible to all.
+- Is the tool **[accessible](application-development/common-dev/accessibility.md)**? It is a legal and moral requirement that tools we use MUST be accessible to all.
 
 If the answer to *any* of these questions is “Yes”, you might not be able to use the OIT.
 
