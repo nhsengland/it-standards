@@ -1,7 +1,8 @@
 ---
 title: Application Development Standards
 description: >
-   Defines the standards for developing bespoke applications.
+  Defines the standards for developing bespoke applications. 
+  Most of these standards also apply to off-the-shelf software and services.
 stage: 3. Development Stage
 created: 2020-11-17 13:23:29
 lastUpdated: 2020-11-18 11:44:12
