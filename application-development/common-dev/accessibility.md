@@ -5,7 +5,7 @@ description: >
    and what responsibilities developers, documentors, implementors and vendors have.
 stage: 3. Development Stage
 created: 2021-09-30 10:35:48
-lastUpdated: 2021-09-30 14:52:02
+lastUpdated: 2021-11-11 11:17:18
 author: Julian Knight
 ---
 
@@ -55,4 +55,4 @@ Implementors of off-the-shelf applications and services also need accessibility 
 ## References
 
 * [Understanding accessibility requirements for public sector bodies (gov.uk)](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
-* 
+* [Accessible Information Standard Specification](https://www.england.nhs.uk/publication/accessible-information-standard-specification/)
