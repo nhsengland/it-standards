@@ -28,7 +28,7 @@ Also note that **documentation** as well as services and applications MUST also 
 
 Remember that there are many forms of accessibility needs, some of which will not be obvious. These include colour blindness and Dyslexia. You should not make assumptions about accessibility, use standardised testing methods.
 
-Generally, accessibility needs are split into 4 general areas:
+Generally, accessibility needs are split into 5 general areas:
 
 * Auditory
 * Cognitive, learning and neurological
