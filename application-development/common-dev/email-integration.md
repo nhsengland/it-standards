@@ -4,7 +4,7 @@ description: >
    Standards and requirements for the integration of email with business applications.
 stage: 3. Development Stage
 created: 2021-07-06 13:57:02
-lastUpdated: 2021-07-06 13:57:07
+lastUpdated: 2021-11-23 12:47:02
 author: Julian Knight
 ---
 
@@ -16,20 +16,20 @@ Both NHS England's Exchange Online (Office 365) and NHSmail services have mail r
 
 Mail sending must be carefully controlled to prevent the relay from being marked as a source of SPAM. In particular, mass mailing should be done via a dedicated mass-mailing service and must not use the user-facing Exchange Online and NHSmail services.
 
-Connections to a mail relay MUST be secured using TLS v1.2+ or an equivalent, standards-based and approved security mechanism.
+Connections to a mail relay MUST be secured using [TLS v1.2+](https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data) or an equivalent, standards-based and approved security mechanism.
 
 Any mail relay in use MUST be a closed relay so that non-authenticated connections cannot use the relay.
 
 ## Receiving
 
-Any application requiring the ability to receive email MUST require inbound connections to be secured using TLS v1.2+ or an equivalent, standards-based and approved security mechanism.
+Any application requiring the ability to receive email MUST require inbound connections to be secured using [TLS v1.2+](https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data) or an equivalent, standards-based and approved security mechanism.
 
 Receiving applications:
 
 * MUST have the ability to deal with SPAM, Phishing and other malicious emails.
 * MUST have the ability to deal with unwanted and unsafe email attachments.
 
-Such security requirements may be dealt with by an upstream mail receiving service (e.g. Exchange Online). In that case, the application must connect to the service over a TLS v1.2+ secured Exchange, HTTPS, IMAP or POP3 connection. Any such connection MUST be authenticated using a dedicated service account. Credentials for accounts must be protected and stored in a suitable keystore.
+Such security requirements may be dealt with by an upstream mail receiving service (e.g. Exchange Online). In that case, the application must connect to the service over a [TLS v1.2+](https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data) secured Exchange, HTTPS, IMAP or POP3 connection. Any such connection MUST be authenticated using a dedicated service account. Credentials for accounts must be protected and stored in a suitable keystore.
 
 Integrations to upstream email services MUST be documented not only in the application documentation but also in the upstream service documentation. The NHSEI Configuration Management Database (CMDB) in Service Now is a suitable place for such information to be stored.
 

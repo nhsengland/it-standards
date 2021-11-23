@@ -4,10 +4,8 @@ description: >
    Defines the standards when developing a new "platform", a service or (set of) applications and tools that allow people to create business applications.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2021-06-08 17:51:56
+lastUpdated: 2021-11-22 13:58:52
 ---
-
-# Platform Development Standards
 
 These standards apply when developing a new "platform" which is to say, a service or (set of) applications and tools that allow people to create business applications.
 
