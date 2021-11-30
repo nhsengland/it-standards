@@ -4,7 +4,7 @@ description: >
    Standards for the Development of Desktop Applications
 stage: 3. Development Stage
 created: 2021-06-10 09:06:00
-lastUpdated: 2021-11-22 14:04:37
+lastUpdated: 2021-11-24 17:07:39
 author: Julian Knight
 ---
 
@@ -21,8 +21,8 @@ Should a desktop application be approved, there will need to be an agreed proces
 
 ## Java Runtime
 
-No desktop applications may be developed for use in NHSEI or NHSX that make use of the Oracle Java Runtime Environment (JRE).
+!> No desktop applications may be developed for use in NHSEI or NHSX that make use of the Oracle Java Runtime Environment (JRE).
 
-Not only does the JRE create unnecessary administrative and operation overheads, it also now has a commercial license and this is simple an unnecessary overhead.
+Not only does the JRE create unnecessary administrative and operation overheads, it also now has a commercial license and this is simply an unnecessary overhead.
 
 Any desktop application presented for review that relies on Oracle JRE will be rejected. Failing that, the originator of the application will have to bear the ongoing costs.

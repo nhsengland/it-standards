@@ -4,7 +4,7 @@ description: >
    Defines the standards that are common to all application development projects.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2021-07-06 16:38:35
+lastUpdated: 2021-11-30 17:25:57
 ---
 
 Please note that ALL application development in NHS England and NHS Improvement is subject to the IT Requests & Approvals process.
@@ -15,18 +15,23 @@ Some projects will require additional approvals from other bodies, refer to the 
 
 Proposals will be reviewed on fit to policies, strategies and standards; resourcing; budgets; security and information governance.
 
+**An overriding strategic requirement for all IT in NHSEI and NHS X is that off-the-shelf is preferred over bespoke services and systems.**
+As such, no bespoke development should take place without an assessment of existing and commercial off-the-shelf services prior to undertaking any design or development work.
+
 ## Core
+
+!> If the stakeholders cannot clearly define a set of business needs, DO NOT START any work other than a _discovery phase_. A discovery phase may be nothing more than a stakeholder workshop but the result MUST be a documented set of _needs_ or _requirements_ and a clearly defined SCOPE.
 
 All development:
 
-* MUST NOT START unless clearly defined scope, requirements, budgets, resources (including both business and technical stakeholders), and plans are available.
-* MUST follow the [common](../common-dev) and other development standards in this repository.
-* MUST follow the NHSEI [Identity and Access Management](../../idam/readme) and [Security](../../security/readme.md) standards in this repository.
-* MUST use open standards wherever possible.
-* MUST use the [standard license and copyright](./code-license-and-copyright.md).
+* MUST NOT START unless clearly defined scope, requirements (both functional and non-functional), budgets, resources (including both business and technical stakeholders), and plans are available.
+* MUST follow the common and other development standards in this repository.
+* MUST follow the NHSEI [Identity and Access Management](idam/readme) and [Security](security/readme.md) standards in this repository.
+* MUST use [open standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles) wherever possible.
+* MUST use the [standard license and copyright](application-development/common-dev/code-license-and-copyright.md).
 * MUST follow the [NHS](https://service-manual.nhs.uk/) and [UK Government](https://www.gov.uk/service-manual) (Cabinet Office Government Digital Service) Design Manual's.
 * MUST follow the security guidelines set out by the National Cyber Security Centre (NCSC).
-* MUST meet WCAG standards for accessibility.
+* MUST meet the accessibility requirements contained in the [GDS Service Manual](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements). See also the [Accessibility page](application-development/common-dev/accessibility).
 * SHOULD follow the security guidelines set out by NIST.
 
 ## Good Practice
@@ -52,9 +57,10 @@ Any application or system must be engineered for future change, with a developme
 
 See also the specific development standards:
 
-* [Business Applications Development](./business-dev)
-* [Internet Applications Development](./internet-dev)
-* [Mobile Applications Development](./mobile-dev)
-* [Platforms Applications Development](./platform-dev)
+* [Business Applications Development](application-development/business-dev/)
+* [Web Applications Development](application-development/web-dev/)
+* [Mobile Applications Development](application-development/mobile-dev/)
+* [Platforms Applications Development](application-development/platform-dev/)
+* [Desktop Apps](application-development/desktop-apps/)
 
-Please read the [CONTRIBUTING](/CONTRIBUTING.md) document for details of how to contribute to these standards.
+Please read the [CONTRIBUTING](CONTRIBUTING.md) document for details of how to contribute to these standards.

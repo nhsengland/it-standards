@@ -11,10 +11,11 @@
     - [License and Copyright](application-development/common-dev/code-license-and-copyright)
     - [Security](application-development/common-dev/security)
     - [Testing](application-development/common-dev/testing)
+    - [Infrastructure](application-development/common-dev/infrastructure)
   - [Business Apps](application-development/business-dev/readme)
   - [Platform Developments](application-development/platform-dev/readme)
   - [Web Apps](application-development/web-dev/readme)
-  - [Mobile Apps](application-development/readme)
+  - [Mobile Apps](application-development/mobile-dev/readme)
   - [Desktop Apps](application-development/desktop-apps)
   
 - End User Compute (EUC)
@@ -46,6 +47,11 @@
   - [Guidance for using Open Internet Tools](security/guidance-for-using-open-internet-tools)
   - [TLS Standards](security/tls)
   
+- Services
+  
+  - [Overview](services/readme.md)
+  - [Procurement Requirements](Services/service-procurement.md)
+
 - [Contributing](CONTRIBUTING)
 
 - **Links**

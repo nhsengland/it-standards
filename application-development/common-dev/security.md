@@ -1,10 +1,10 @@
 ---
 title: Application Security
 description: >
-   Common security standards and requirements for NHSEI applications.
+   Common security standards and requirements for NHSEI and NHSX applications.
 stage: 3. Development Stage
 created: 2021-06-30 11:22:49
-lastUpdated: 2021-11-23 13:47:31
+lastUpdated: 2021-11-24 17:30:19
 author: Julian Knight
 ---
 
@@ -18,13 +18,13 @@ All development projects MUST contact the Cyber Security Team early in the proje
 
 All systems and services developed by and for NHS England and NHS Improvement will require a written and approved _System Level Security Policy_ (SLSP).
 
-Any application that handles information classified at OFFICIAL-SENSITIVE or above is required to register with the NHSEI Information Asset Management System (IAMS). Please contact your Information Governance representative for further information.
+Any application that handles information classified at OFFICIAL-SENSITIVE or above (including commercially sensitive or personally identifiable information) is required to register with the NHSEI Information Asset Management System (IAMS). Please contact your Information Governance representative for further information.
 
 Please also read the other development standards which have more specific information regarding security standards.
 
 ## Additional security references
 
-* [Security](../../security/readme.md)
-* [Security/TLS](../../security/tls.md)
-* [Application Development/Authentication](./authentication.md)
+* [Security](security/readme.md)
+* [Security/TLS](security/tls.md)
+* [Application Development/Authentication](application-development/common-dev/authentication)
 * [National Cyber Security Centre (NCSC) Advice & Guidance](https://www.ncsc.gov.uk/section/advice-guidance/all-topics)

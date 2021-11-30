@@ -4,10 +4,12 @@ description: >
    Defines the standards for authenticating users to bespoke applications.
 stage: 3. Development Stage
 created: 2021-04-28 10:00:00
-lastUpdated: 2021-11-23 12:47:14
+lastUpdated: 2021-11-24 17:26:51
 ---
 
-In general, **all** systems MUST require a login. Only systems delivering _public_ information will be accessible without a login.
+In general, **all** systems MUST require a login. Only systems delivering _public_ information should be accessible without a login.
+
+All _administrative_ access to systems MUST require a login. Administrative access MUST also use multi-factor authentication.
 
 Please refer to the Identity and Access Management strategy and standards before trying to implement a new system. 
 We have a number of options in the strategy depending on the requirements.
@@ -39,8 +41,10 @@ review and approval via the Architecture Review Board (ARB).
   e.g. password lengths and complexity.
   
   These details must only be available to authenticated users.
-  
-* **Multi-factor authentication SHOULD be required**
+
+* **Multi-factor authnetication MUST be required for administrative access**
+    
+* Multi-factor authentication SHOULD be required
   
   This provides far better security than a complex, often changing password.
   
