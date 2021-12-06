@@ -7,10 +7,11 @@ description: >
    This section provides some guidance on expected requirements for service procurements and should be included in ITT's.
 stage: 3. Development Stage
 created: 2021-11-29 12:05:40
-lastUpdated: 2021-11-30 17:51:30
+lastUpdated: 2021-12-06 11:28:30
 author: Julian Knight
 ---
 
+In addition to these standards, all services procured by and for NHSEI and NHSX MUST adhere to the UK Government [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice). Larger or public-facing systems will need to go through Cabinet Office approvals which are measured against the TCoP. This page provides some more NHSEI specific standards but clearly overlaps with the larger TCoP.
 
 ## Procure services not systems
 
