@@ -56,5 +56,5 @@
 
 - **Links**
   
-- [NHS England GitHub](https://nhsengland.github.io/)
+- [NHS England GitHub](https://github.com/nhsengland/)
 - [NHS Design System](https://service-manual.nhs.uk/design-system)
