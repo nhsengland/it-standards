@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "start": "docsify serve . --open",
         "serve": "docsify serve . --open"
     }
 }
