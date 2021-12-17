@@ -10,6 +10,12 @@ lastUpdated: 2020-11-18 11:44:12
 
 Please also see [#Issue 4](https://github.com/nhsengland/it-standards/issues/4) for the proposal for these standards.
 
+!> It must be noted that NHSEI is _not_ in the business of developing software and bespoke services.<br><br>
+The strategic approach to software and services is to use Commercial Off-The-Shelf (COTS) software and services and not to develop our own.<br><br>
+Custom development should only take place where no other alternative exists.<br><br>
+Projects are _strongly_ encouraged to adopt standard operating models supported by COTS services and software so that they can continue to benefit from external improvements.<br><br>
+Custom development means that software and services have to be continuously maintained and developed which adds ever increasing resource requirements to the organisation.
+
 Things to cover (in no specific order):
 
 * Passwords - Azure Key Vault, no sensitive information in code
