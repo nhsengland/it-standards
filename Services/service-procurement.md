@@ -7,17 +7,33 @@ description: >
    This section provides some guidance on expected requirements for service procurements and should be included in ITT's.
 stage: 3. Development Stage
 created: 2021-11-29 12:05:40
-lastUpdated: 2021-12-06 11:28:30
+lastUpdated: 2021-12-20 10:53:57
 author: Julian Knight
 ---
 
 In addition to these standards, all services procured by and for NHSEI and NHSX MUST adhere to the UK Government [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice). Larger or public-facing systems will need to go through Cabinet Office approvals which are measured against the TCoP. This page provides some more NHSEI specific standards but clearly overlaps with the larger TCoP.
+
+!> These standards should be used by anyone in NHSEI looking to procure IT services.<br>They should also be used by vendors providing services to NHSEI. Any variation from these standards need to be explained.<br>There _can_ be exceptions as long as there are valid business reasons and as long as the risks and variations are manageable.
 
 ## Procure services not systems
 
 Wherever feasible, NHSEI should be procuring _services_ and not _systems_.
 
 This means that the infrastructure, operating systems, and system software is all fully managed by a vendor.
+
+The vendor is also responsible for keeping everything current in line with our security requirements.
+Notably that all services and software MUST remain on in-support versions at all times and must be fully security patched.
+
+## We are rarely unique
+
+While organisations and teams often think of themselves as having unique needs, this is actually rarely the case.
+
+As such, bespoking of services and software is strongly discouraged. It forms a tight coupling to the service, and
+makes the general support and upgrade of the service harder.
+
+Instead, as consumers of a service, NHSEI should be looking to adopt general best-practice that has been formulated across multiple consumers over time.
+
+Please see the [overview of this section](Services/readme.md) for more detailed reasoning.
 
 ## All IT services must have defined exit plans
 
@@ -34,17 +50,11 @@ Ideally, that platform vendor should be operating a multi-tenanted platform and 
 The purpose of this is to try and minimise supplier lockin. It is also to discourage bespoking of services and instead encourage multi-customer services
 to be improved for all customers resulting in everyone benefitting from best practices.
 
-## Service enhancements that service all customers are strongly preferred over bespoke changes
-
-As with the previous point, making bespoke changes to vendor platforms is strongly discouraged. It forms a tight coupling to the service, and
-makes the general support and upgrade of the service harder.
-
-Instead, as consumers of a service NHSEI should be looking to adopt general best-practice that has been formulated across multiple consumers over time.
 
 ## Services MUST have well defined integration architectures including API's, data schema's, timing and processes
 
 When taking on off-the-shelf services, it is critical that those services have well-defined integration architectures. This enables easier offboarding where necessary
-but also enables a more flexible approach whereby other services and systems can provide or consume information.
+but also enables a more flexible approach whereby other services and systems can provide or consume information without expensive, bespoke integrations.
 
 This is especially important for services that may be used by multiple NHS organisations. The NHS is a very complex collaboration of independent organisations and it
 must not be assumed that they will all be able to operate in the same way, have the same budgets, or have the same requirements.
@@ -56,13 +66,15 @@ data schema's.
 
 The data belongs to the Crown as do any backups.
 
-This is to ensure that, upon service exit, sufficient knowledge is retained so that a new service can be created without significant disruption to users and interfaces.
+This is to ensure that, upon service exit, sufficient knowledge is retained and that a new service can be created without significant disruption to users and interfaces.
+
+It should also be noted that such open standards benefit the vendor as much as the consumers of a service.
 
 ## Integration points should use open standards wherever possible
 
 Wherever possible, data schema's, security and interfaces must use open standards.
 
-Open standards facilitate flexibility, minimise costs and complexity, and facilitate on-/off-boarding to/from services.
+Open standards facilitate flexibility, minimise costs and complexity, and facilitate on-/off-boarding to and from services.
 
 ## Data and data backups must be transferable on service exit
 
@@ -79,14 +91,14 @@ of a service and its underlying systems.
 It is important to engage IT before procuring services. See below for additional reasons.
 As a minimum, it is needed to validate new services to ensure a good fit with the strategic technology and service management for NHSEI and X.
 
-There are three key governance processes that support this. 
+There are three or four key governance processes that support this. 
 
-The Architecture Review Board (ARB) meets fortnightly and is made of of senior digital and IT staff across
+The _Architecture Review Board (ARB)_ meets fortnightly and is made of of senior digital and IT staff across
 NHSEI, NHS X, HRA and Leadership Academy. There is representation from service, infrastructure, security, IG, data and analytics departments.
 
-The IT Triage board meets weekly and reiews not only business cases but also any new requests for IT projects, services and applications.
+The _IT Triage board_ meets weekly and reiews not only business cases but also any new requests for IT projects, services and applications.
 The Triage board will generally be able to make a rapid decision on a request and ensure that it moves on to the team best able to deal with the request.
-The Triage board is made up of representatives from all areas of IT.
+The Triage board is made up of representatives from all areas of IT. Requests for technology engagement can now be made using NHSEI's Service Now customer portal.
 
 Both of these are managed by the IT PMO team.
 
@@ -94,7 +106,7 @@ The third board is the *Technical Design Authority* (TDA). This consists of tech
 This meets weekly and discusses design, development and infrastructure issues and proposals. It's purpose is to approve appropriate changes to 
 IT and to ensure that the various technology areas are aware of strategic and operational changes. The Head of Architecture is the chair of the TDA.
 
-A fourth board is the Digital Products Assurance Group (DPAG). This group pre-assesses proposals that need to be assessed under the Cabinet Office GDS standards.
+A fourth board is the _Digital Products Assurance Group (DPAG)_. This group pre-assesses proposals that need to be assessed under the Cabinet Office GDS standards.
 This includes anything that is classed as a public digital service. It also includes any mobile app development and may include very large IT projects and services.
 Business cases should generally be idenified as being "digital" so that DPAG are engaged early. However, if something misses that classification, 
 it will be picked up during the ARB business case assessment. DPAG and the GDS assessors have seats on the ARB.
@@ -103,33 +115,40 @@ it will be picked up during the ARB business case assessment. DPAG and the GDS a
 ## IT Services must be centrally recorded
 
 As new services are procured or existing services updated or renewed, a log of the details must be kept in the *Configuration Management Database* (CMDB)
-which is maintained by IT.
+which is maintained by IT in Service Now.
 
 Commercial and product lifecycles must be tracked to enable look-ahead pipelines of work to be planned.
 Records of business and vendor contacts are also kept along with summaries of key information such as numbers of licenses, dependencies, etc.
+
+The CMDB supports various critical management and governance functions. It helps with cyber security and service incidents, ongoing license management, budgeting, support, strategic and architectural planning, etc.
 
 ## IT should have an Intelligent Client Function (ICF) role in IT services
 
 It is important to get IT engaged early as they can help with standards, design, service management, security, procurement and more.
 Early engagement helps avoid later pitfalls during procurement, design, implementation and running.
 
-IT are also responsible for governance of IT services and systems and will triage new requests and business cases and ensure that the right teams
+IT are also responsible for governance of IT services, systems, software, and infrastructure and will triage new requests and business cases and ensure that the right teams
 and governance models are engaged.
 
-IT can provide ongoing help and support for IT services in these areas and more:
+IT can also provide ongoing help and support for IT services in these areas and more:
 
 - Supplier and multi-supplier management
-- Service monitoring, front-line service desk, incident management
+- Service monitoring
+- Front-line service desk and incident management
+- Cyber security incident management, governance, monitoring and support
 - Commercial, procurement and financial support
 - Financial monitoring (via open book charging)
 - Standards
 - Architecture & design governance and support
-- Cyber security governance, monitoring and support
 - Project and programme management
+- Supplier integration with service desk
+- Strategy and policy alignment
 
 ## Business cases for IT services must be approved by IT and the ARB
 
-This is part of the financial and commercial governance of NHSEI.
+This is part of the technical, financial and commercial governance of NHSEI.
+
+New and significantly changed services will be assessed for fit to the NHSEI policies and strategies.
 
 Proposed services that overlap existing services will be questioned at the Architecture Review Board (ARB) and may not
 be approved until evidence is provided that the existing service isn't viable for the new use.
@@ -140,16 +159,15 @@ The IT PMO team manage the governance processes both for business case approval 
 
 NHSEI operate a Change Advisory Board (CAB) on a weekly basis.
 
-All changes to live services should be submitted to CAB for approval prior to any live change.
+All changes to live IT services must be submitted to CAB for approval prior to any live change.
 
-For services running on vendor cloud infrastructure, only user-impacting changes need to go through the NHSEI CAB.
-
+For services running on vendor cloud infrastructure, only user- or interface-impacting changes need to go through the NHSEI CAB.
 
 ## Technical standards
 
 ### No client dependencies
 
-Procured services must not have dependencies on client (e.g. laptop/desktop applications or browser extensions) apps.
+Procured services must not have dependencies on client apps (e.g. laptop/desktop applications or browser extensions).
 
 NHSEI operates a strategy that requires user-facing interfaces to be browser based.
 
@@ -162,7 +180,7 @@ Supported browsers must be kept "evergreen" and are restricted to *currently sup
 
 Services must continue to support *current* versions of browsers as they evolve. Note that the development standards on this site have additional information about browser support.
 
-**Specifically, no laptop/desktop applications will be approved that rely on Oracle Java.**
+**Specifically, no laptop/desktop applications will be approved that rely on the Oracle Java client.**
 
 Services *may* specify local applications/extensions where those are not central to the use of the service. In other words, where they may provide some additional benefit to users. 
 However, there is no guarentee that those will be accepted into live service. Any such software must not disadvanage the majority of users and all operation of the service must be
