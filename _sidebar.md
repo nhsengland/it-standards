@@ -39,6 +39,7 @@
   - [Cloud](infrastructure/cloud/readme)
   - [Physical](infrastructure/physical/readme)
   - [Networks](infrastructure/networks)
+  - [Availability](infrastructure/availability)
 
 - Security
 

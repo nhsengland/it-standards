@@ -1,6 +1,16 @@
-# Availability
-Availability is a measure of the percentage of time that a system is functioning and able to meet defined workloads.  
-It includes availability of **user interfaces** to support users complete tasks and also availability to respond to input on the **system interfaces**
+---
+title: Availability
+description: >
+   Availability is a measure of the percentage of time that a system is functioning and able to meet defined workloads.  
+
+   It includes availability of **user interfaces** to support users complete tasks and also availability to respond to input on the **system interfaces**
+stage: 3. Development Stage
+created: 2021-08-23 15:32:00
+lastUpdated: 2021-12-21 09:45:57
+author: Ben Heap
+---
+
+!> This section has not yet been reviewed and is subject to change.
 
 ![image](https://user-images.githubusercontent.com/9471595/130458486-d1138b90-bf43-44c8-bf9c-9623458b9a72.png)
 
