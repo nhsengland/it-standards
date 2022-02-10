@@ -5,7 +5,7 @@ description: >
    and what responsibilities developers, documentors, implementors and vendors have.
 stage: 4. Final Approval Stage
 created: 2021-09-30 10:35:48
-lastUpdated: 2021-11-11 12:55:37
+lastUpdated: 2022-02-10 12:56:03
 author: Julian Knight
 ---
 
@@ -18,7 +18,8 @@ While this mostly focuses on patient facing services, it applies to all applicat
 The standard also details the legal responsibilities and provides references explaining why accessibility is critical
 for our systems.
 
-The [2010 Equality Act](https://www.legislation.gov.uk/ukpga/2010/15/contents) is the main legislation that underpins these requirements.
+The [2010 Equality Act](https://www.legislation.gov.uk/ukpga/2010/15/contents) and the [Public Sector Accessibility Regulations 2018](https://www.legislation.gov.uk/uksi/2018/952/contents/made) are the main legislation that underpins these requirements.
+In particular, the 2018 act brings into law a requirement that all public sector websites and mobile apps meet accessibility standards.
 
 In addition, all browser-based user-interfaces MUST meet at least level _AA_ of the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/), currently (2021) at version 2.1. and should strive for _AAA_ level if possible.
 
@@ -56,3 +57,4 @@ Implementors of off-the-shelf applications and services also need accessibility 
 
 * [Understanding accessibility requirements for public sector bodies (gov.uk)](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 * [Accessible Information Standard Specification](https://www.england.nhs.uk/publication/accessible-information-standard-specification/)
+* [GDS (Cabinet Office) Accessibility Community](https://www.gov.uk/service-manual/communities/accessibility-community)
