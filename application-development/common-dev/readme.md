@@ -4,7 +4,7 @@ description: >
    Defines the standards that are common to all application development projects.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2021-11-30 17:25:57
+lastUpdated: 2022-02-10 12:59:27
 ---
 
 Please note that ALL application development in NHS England and NHS Improvement is subject to the IT Requests & Approvals process.
@@ -31,7 +31,7 @@ All development:
 * MUST use the [standard license and copyright](application-development/common-dev/code-license-and-copyright.md).
 * MUST follow the [NHS](https://service-manual.nhs.uk/) and [UK Government](https://www.gov.uk/service-manual) (Cabinet Office Government Digital Service) Design Manual's.
 * MUST follow the security guidelines set out by the National Cyber Security Centre (NCSC).
-* MUST meet the accessibility requirements contained in the [GDS Service Manual](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements). See also the [Accessibility page](application-development/common-dev/accessibility).
+* MUST meet the accessibility requirements contained in the [GDS Service Manual](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements). See also the [Accessibility page](application-development/common-dev/accessibility). Accessibility is also a legal requirement.
 * SHOULD follow the security guidelines set out by NIST.
 
 ## Good Practice
