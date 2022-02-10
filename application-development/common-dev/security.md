@@ -4,7 +4,7 @@ description: >
    Common security standards and requirements for NHSEI and NHSX applications.
 stage: 3. Development Stage
 created: 2021-06-30 11:22:49
-lastUpdated: 2021-11-24 17:30:19
+lastUpdated: 2022-02-10 12:57:02
 author: Julian Knight
 ---
 
@@ -28,3 +28,6 @@ Please also read the other development standards which have more specific inform
 * [Security/TLS](security/tls.md)
 * [Application Development/Authentication](application-development/common-dev/authentication)
 * [National Cyber Security Centre (NCSC) Advice & Guidance](https://www.ncsc.gov.uk/section/advice-guidance/all-topics)
+* [Snyk Secure Software Development Life Cycle (SSDLC)](https://snyk.io/wp-content/uploads/ssdlc-2.png)
+
+
