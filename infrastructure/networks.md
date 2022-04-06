@@ -4,29 +4,30 @@ description: >
    Defines the standards for all digital networking including Local and Wide-Area Networks (LAN, WAN).
 stage: 3. Development Stage
 created: 2021-06-14 10:16:44
-lastUpdated: 2021-06-14 17:30:39
-reviewDate: 2022-05-01
+lastUpdated: 2022-04-06 12:12:01
+reviewDate: 2022-10-01
 ---
 
 Note that networking for NHSEI is subject to the requirements of the _[DSP Toolkit](https://www.dsptoolkit.nhs.uk/)_ and _[Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview)_ certification.
 
 ## General
 
-- All changes to networking MUST be pre-approved by the CISW Infrastructure Team and the CISW Architecture Team.
-- All networking hardware and software MUST be currently supported by vendors and manufacturers.
-- All inter-network connections (LAN-LAN, LAN-WAN, etc.) MUST have a properly configured and actively managed firewall. (DSPT Assertion 9.7.1)
+- All changes to networking MUST be pre-approved by the *CISW Infrastructure Team* and the *CISW Technical Design Authority* (TDA).
+- All networking hardware and software MUST be currently supported by vendors and manufacturers. This MUST continue to be true for its contracted life. Once hardware or software is no longer under active support, it MUST be retired.
+- All inter-network connections (LAN-LAN, LAN-WAN, etc.) MUST have a properly configured and actively managed firewall. (DSPT Assertion 9.7.1).
 - All inbound connections from WAN to LAN MUST be disabled by default. Any inbound connections MUST be specifically defined with minimal connectivity.
 
 ## Wide-Area Networking
 
-- WAN's should use software-defined networking to maximise flexibility and minimise cost
+- WAN's should use software-defined networking to maximise flexibility and minimise cost.
+- Use of private WAN's SHOULD be minimised. Justification must be provided if proposing the use of private networking rather than the Internet.
 
 ## Local-Area Networking
 
-- All network wiring and switches MUST be at least 100Mbps and should be 1Gbps.
+- All network wiring and switches MUST be at least 100Mbps and SHOULD be 1Gbps.
 - All LAN hardware should use SD-LAN technology.
 - All sites MUST have an edge firewall. This MUST be a centrally managed, SD-network device.
-- Site firewalls SHOULD NOT be individually configured. A single, central configuration should be used.
+- Site firewalls MUST NOT be individually configured. A single, central configuration must be used.
 
 ### Corporately provisioned Wi-Fi
 

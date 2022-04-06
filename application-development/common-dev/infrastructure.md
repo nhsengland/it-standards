@@ -4,7 +4,7 @@ description: >
    Defines the infrastructure and platform standards that are common to all application development projects.
 stage: 3. Development Stage
 created: 2021-11-24 17:48:16
-lastUpdated: 2021-11-24 17:48:20
+lastUpdated: 2022-04-06 12:23:38
 ---
 
 
@@ -18,5 +18,9 @@ Developments requiring local infrastructure will require additional scrutiny and
 NHSEI's cloud platform of choice is Microsoft Azure. Use of other platforms is strongly discouraged only because of the additional complexity and overheads of trying to support 
 multiple global cloud platforms. Use of other platforms is subject to approval by the Architecture Review Board and even if approved is likely to result in ongoing support and
 maintenance costs that will need to be born by the key stakeholders.
+
+Any proposed infrastructure that needs support from CISW is also subject to review and approval BEFORE PROCUREMENT BEGINS from the CISW Infrastructure Team and the CISW Technical Design Authority board (TDA).
+
+Infrastructure definitions MUST be well documented and, where feasible, MUST use template definitions. Where Azure infrastructure is used, it is expected that the infrastructure will be defined using Azure Templates. In other cases, Kubernetees may be used. Note that Docker is NOT supported by NHSE&I and should not be used.
 
 See the [Infrastructure](infrastructure.md) section of this site for more information.

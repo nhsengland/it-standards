@@ -4,7 +4,7 @@ description: >
    This section of the standards covers all infrastructure. Whether Cloud-based, data-centre or on-premise.
 stage: 3. Development Stage
 created: 2021-06-08 13:51:00
-lastUpdated: 2021-11-24 18:06:30
+lastUpdated: 2022-04-06 12:20:07
 ---
 
 ## Common Standards
@@ -31,6 +31,16 @@ It will not be permitted to have infrastructure who's firmware, operating system
 ### All devices MUST have vendor or 3rd-party support
 
 It will not be permitted to have infrastructure that has no support from the manufacturer, vendor or 3rd-party.
+
+### Infrastructure definitions and deployment
+
+The CISW Infrastructure Team along with the CISW Technical Design Authority (TDA) have responsibility over infrastructure change. Prior to live deployment, the Change Advisory Board must also be notified. Any proposed infrastructure changes that are different to the accepted architecture MUST also be reviewed and approved by the Architecture Review Board (ARB).
+
+All infrastructure MUST have suitable design documentation that must be approved before hardware/software procurement and deployment. 
+
+Wherever feasible, infrastructure MUST be defined using templating tools such as Azure Templates or Kubernetees. Consult with the CISW Infrastructure Team before deciding on the templating tool to use.
+
+Note that Docker is NOT part of NHSE&I's standard toolchain and should not be used.
 
 ## Other Standards
 
