@@ -4,8 +4,8 @@ description: >
    Defines the standard applications for devices running a desktop OS
 stage: 3. Development Stage
 created: 2020-06-15 10:00:00
-lastUpdated: 2020-06-19 21:46:45
-reviewDate: 2021-01-01
+lastUpdated: 2022-05-30 09:59:50
+reviewDate: 2022-11-01
 ---
 
 These are the standard applications that users can expect to have on their Windows 10 desktop OS.
@@ -36,11 +36,14 @@ These are the application standards that must be used for future desktop platfor
 
     Edge's enterprise support includes "IE Mode". This allows for an exceptions list for sites known to need to use legacy IE. Such sites will be transparently set to use the legacy IE libraries.
 
+    Staff are strongly encouraged to make use of Edge's profile synchronisation feature to ensure that their bookmarks, open tabs/windows, browsing history, etc are all backed up and available to different devices (including mobile and any replacement desktops). Profiles should also be used to keep multiple accounts on similar systems separate from each other (e.g. Office 365 and NHSmail).
+
   - Firefox
     
     Available as an alternative to Edge.
 
 - File Compression: 7zip
+- Password Management: Password Safe
 
 - Collaboration
 
@@ -57,11 +60,12 @@ TBC
   
 - Browsers
   
-  - Internet Explorer 11
+  - ~~Internet Explorer 11~~ This is now actively being retired
+  - Microsoft Edge
   - Google Chrome
   - Firefox
 
-  IE11 will be replaced by Microsoft Edge (Chromium) with enterprise mode configured to redirect sites known to need IE to use the built-in IE-mode. It is possible that Chrome will then be removed.
+  IE11 will be replaced by Microsoft Edge (Chromium) with IE mode configured to redirect sites known to need IE to use the built-in IE-mode. It is possible that Chrome will then be removed.
 
 ## NHS Improvement specific
 
@@ -69,11 +73,12 @@ Only differences from the [Common Standard](#common-standard) are listed.
 
 TBC
 
-- Anti-malware: Kasperski
+- Anti-malware: ~~Kasperski~~ Now replaced with Microsoft Defender
   
 - Browsers
   
-  - Internet Explorer 11
+  - ~~Internet Explorer 11~~ This is now actively being retired
+  - Microsoft Edge
   - Google Chrome
   - Firefox
 
@@ -82,3 +87,5 @@ TBC
 ## NHSX Specific
 
 Only differences from the [Common Standard](#common-standard) are listed.
+
+- Chrome is being temporarily retained while Google services are still active, will migrate to Edge eventually.
