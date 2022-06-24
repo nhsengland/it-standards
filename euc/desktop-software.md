@@ -4,7 +4,7 @@ description: >
    Selection and deployment processes for authorised desktop software
 stage: 3. Development Stage
 created: 2021-05-04 15:53:00
-lastUpdated: 2021-05-04 17:26:00
+lastUpdated: 2022-06-24 10:40:40
 ---
 
 For standard users, only two mechanisms exist for delivery of desktop software to a users desktop:
@@ -13,7 +13,7 @@ For standard users, only two mechanisms exist for delivery of desktop software t
 
 Standard users may not install or run arbitary desktop software.
 
-It should be noted that **ALL** EUC devices issued by NHSEI and NHSX are subject to ongoing operational and security monitoring.
+It should be noted that **ALL** EUC devices issued by NHS England are subject to ongoing operational and security monitoring.
 Compromised devices may be remotely locked and/or wiped.
 
 ## Power/Developer Users
@@ -102,8 +102,8 @@ It is UK Government policy that open source applications should be considered wh
 However, the following things should be considered:
 
 - Open Source does not mean free - organisations and teams should consider investing in open source applications if they are relying on them.
-- Free licenses may not be free for all uses - it is common for applications to have licenses that are free for personal and non-commercial use but charged for other use. It can be debatable as to whether an ALB such as NHSEI would be eligable under non-commercial licensing.
+- Free licenses may not be free for all uses - it is common for applications to have licenses that are free for personal and non-commercial use but charged for other use. It can be debatable as to whether an ALB such as NHS England would be eligable under non-commercial licensing.
 - Free licenses do not mean that there is no cost - all IT comes with a cost. It costs money and resources to test, manage, deploy and support.
-- Software suitable for domestic, non-professional use may be considered too risky for professional enterprise use. NHSEI has in excess of 15,000 direct users to service and protect. It also has responsibilities across the NHS (2 million staff, 70 million patients) and the rest of Government along with suppliers and voluntary organisations. We cannot and will not put them at risk.
+- Software suitable for domestic, non-professional use may be considered too risky for professional enterprise use. NHS England has in excess of 15,000 direct users to service and protect. It also has responsibilities across the NHS (2 million staff, 70 million patients) and the rest of Government along with suppliers and voluntary organisations. We cannot and will not put them at risk.
 - Open source software may require significantly higher levels of administration than commercial software. This can make it uneconomic despite being "free".
 

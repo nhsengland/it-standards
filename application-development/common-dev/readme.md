@@ -4,7 +4,7 @@ description: >
    Defines the standards that are common to all application development projects.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2022-02-10 12:59:27
+lastUpdated: 2022-06-24 10:36:01
 ---
 
 Please note that ALL application development in NHS England and NHS Improvement is subject to the IT Requests & Approvals process.
@@ -15,7 +15,7 @@ Some projects will require additional approvals from other bodies, refer to the 
 
 Proposals will be reviewed on fit to policies, strategies and standards; resourcing; budgets; security and information governance.
 
-**An overriding strategic requirement for all IT in NHSEI and NHS X is that off-the-shelf is preferred over bespoke services and systems.**
+> **An overriding strategic requirement for all IT in NHS England is that off-the-shelf is preferred over bespoke services and systems.**
 As such, no bespoke development should take place without an assessment of existing and commercial off-the-shelf services prior to undertaking any design or development work.
 
 ## Core
@@ -26,7 +26,7 @@ All development:
 
 * MUST NOT START unless clearly defined scope, requirements (both functional and non-functional), budgets, resources (including both business and technical stakeholders), and plans are available.
 * MUST follow the common and other development standards in this repository.
-* MUST follow the NHSEI [Identity and Access Management](idam/readme) and [Security](security/readme.md) standards in this repository.
+* MUST follow the NHS England [Identity and Access Management](idam/readme) and [Security](security/readme.md) standards in this repository.
 * MUST use [open standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles) wherever possible.
 * MUST use the [standard license and copyright](application-development/common-dev/code-license-and-copyright.md).
 * MUST follow the [NHS](https://service-manual.nhs.uk/) and [UK Government](https://www.gov.uk/service-manual) (Cabinet Office Government Digital Service) Design Manual's.

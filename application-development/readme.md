@@ -5,15 +5,15 @@ description: >
   Most of these standards also apply to off-the-shelf software and services.
 stage: 3. Development Stage
 created: 2020-11-17 13:23:29
-lastUpdated: 2021-12-17 11:19:56
+lastUpdated: 2022-06-24 12:42:34
 ---
 
 Please also see [#Issue 4](https://github.com/nhsengland/it-standards/issues/4) for the proposal for these standards.
 
-!> It must be noted that NHSEI is _not_ in the business of developing software and bespoke services.<br><br>
+!> It must be noted that NHS England is not in the business of developing software and bespoke services.<br><br>
 The strategic approach to software and services is to use Commercial Off-The-Shelf (COTS) software and services and not to develop our own.<br><br>
 Custom development should only take place where no other alternative exists.<br><br>
-Projects are _strongly_ encouraged to adopt standard operating models supported by COTS services and software so that they can continue to benefit from external improvements.<br><br>
+Projects are strongly encouraged to adopt standard operating models supported by COTS services and software so that they can continue to benefit from external improvements.<br><br>
 Custom development means that software and services have to be continuously maintained and developed which adds ever increasing resource requirements to the organisation.
 
 Things to cover (in no specific order):
@@ -27,7 +27,6 @@ Things to cover (in no specific order):
 * Available service/server platforms
   * Azure first (Cloud first, mobility first)
   * AWS - If Azure not suitable for some reason
-  * Google Cloud (for NHSX only)
   * Crown Hosting - if public cloud services not suitable
 * Available application platforms
   * Azure cloud services (Saas options preferred over Paas over IaaS)

@@ -4,7 +4,7 @@ description: >
    Defines the standards for the development of bespoke business applications.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2021-11-24 17:22:28
+lastUpdated: 2022-06-24 10:26:52
 ---
 
 Business applications are bespoke applications developed on corporate/business platforms and will typically use C#, C++, Visual Basic.net, SQL Server, etc. 
@@ -18,7 +18,7 @@ See also the [standards common to all development activities](application-develo
 All business application development:
 
 * **MUST follow the [common development standards](application-development/common-dev/readme).**
-* MUST use the common development stack defined by NHSEI outlined below.
+* MUST use the common development stack defined by NHS England outlined below.
 
 ## Development Stack
 

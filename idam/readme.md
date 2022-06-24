@@ -4,11 +4,11 @@ description: >
    This section of the standards covers all aspects if user identity and access management.
 stage: 3. Development Stage
 created: 2021-06-14 10:16:44
-lastUpdated: 2021-06-14 17:32:22
+lastUpdated: 2022-06-24 10:41:33
 reviewDate: 2022-05-01
 ---
 
-IDAM is broken down into two main areas due to the very complex set of requirements that cover all of the many and varies requirements of NHSEI.
+IDAM is broken down into two main areas due to the very complex set of requirements that cover all of the many and varies requirements of NHS England.
 
 "Internal" IDAM covers all aspects of staff and contract identities along with access control for services and systems that are largely "internally" facing. Note however, that our systems are rarely _just_ internal or external.
 
@@ -16,7 +16,7 @@ IDAM is broken down into two main areas due to the very complex set of requireme
 
 ## Internal
 
-The strategic tool providing identities for internal use is NHS England's **Azure Active Directory** (AAD). Everyone working for NHSEI, whether employee's, embedded, seconded in or contracted should have an entry in the NHS England AAD.
+The strategic tool providing identities for internal use is NHS England's **Azure Active Directory** (AAD). Everyone working for NHS England, whether employee's, embedded, seconded in or contracted should have an entry in the NHS England AAD.
 
 This entry should also give them an entry in the Staff Directory.
 
@@ -46,6 +46,6 @@ The strategic approach for systems and services whose users are primarily extern
 
 The instance of Okta previously referred to as "The Insights Platform", will be the primary focus. 
 
-However, a secondary instance that is set up in a more traditional mode is also available. As of 2021-06, this is only currently used for the NHSEI Service Now platform which has a hybrid of federated identities.
+However, a secondary instance that is set up in a more traditional mode is also available. As of 2021-06, this is only currently used for the NHS England Service Now platform which has a hybrid of federated identities.
 
 Any designs wishing to use alternative identity or access control provision MUST gain pre-approval before starting the design process. Approval is via at least the _Technical Design Authority_ (TDA) and _Architecture Review Board_ (ARB).

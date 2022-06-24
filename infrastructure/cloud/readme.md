@@ -1,16 +1,26 @@
-# Cloud Infrastructure Standards
+---
+title: Cloud Infrastructure Standards
+description: >
+   Standards for NHS England's cloud infrastructure.
+stage: 3. Development Stage
+created: 2021-08-08 17:20:00
+lastUpdated: 2022-06-24 10:44:18
+author: Julian Knight
+---
 
-NHSEI's strategy calls for the use of Cloud Infrastructure before any consideration of physical infrastructure.
+NHS England's strategy calls for the use of Cloud Infrastructure before any consideration of physical infrastructure.
 
 ## Platforms
 
-NHSEI are not prescriptive when it comes to the use of different cloud platforms.
+NHS England are not prescriptive when it comes to the use of different cloud platforms.
 
 However, there is a strong preference for using Microsoft Azure for the following reasons:
 
 1) We have the most experience in our operational and architectural teams. Each of the global cloud platforms (Azure, AWS, Google) are incredibly complex environments with hundreds of services and extremely complex licensing. It is not feasible for us to manage services across multiple cloud platforms and so operational support for non-Azure deployments will need to be procured and managed separately.
 2) We already have extensive licensing agreements that can be leveraged.
 3) We have supporting logging, auditing and other management services that interface to Azure. These may need more work - both up-front development and ongoing support.
+
+> If other cloud platforms are required, please note that there may be an increased requirement for support resources.
 
 ## Approach
 

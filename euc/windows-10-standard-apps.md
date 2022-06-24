@@ -4,7 +4,7 @@ description: >
    Defines the standard applications for devices running a desktop OS
 stage: 3. Development Stage
 created: 2020-06-15 10:00:00
-lastUpdated: 2022-05-30 09:59:50
+lastUpdated: 2022-06-24 12:42:10
 reviewDate: 2022-11-01
 ---
 
@@ -50,42 +50,33 @@ These are the application standards that must be used for future desktop platfor
   - Microsoft Teams
   - Microsoft Whiteboard
 
-## NHS England specific
+## Other - Freely installable
 
-Only differences from the [Common Standard](#common-standard) are listed.
+Many common applications are made available either via a self-service "Company Portal" without the need for service desk involvement.
 
-TBC
+These include:
 
-- Anti-malware: Trend
-  
-- Browsers
-  
-  - ~~Internet Explorer 11~~ This is now actively being retired
-  - Microsoft Edge
-  - Google Chrome
-  - Firefox
+* Visual Studio Code
+* R and R-Studio
+* Python
+* ... TBC ...
 
-  IE11 will be replaced by Microsoft Edge (Chromium) with IE mode configured to redirect sites known to need IE to use the built-in IE-mode. It is possible that Chrome will then be removed.
+## Other - Restricted deployment
 
-## NHS Improvement specific
+In addition, there are a variety of applications that may be requested via the standard *Technology Request & Requirements Form* in the Service Now self-service portal.
 
-Only differences from the [Common Standard](#common-standard) are listed.
+Typically, these are chargable applications and so will require approval from a budget-holder before being released.
 
-TBC
+Examples include:
 
-- Anti-malware: ~~Kasperski~~ Now replaced with Microsoft Defender
-  
-- Browsers
-  
-  - ~~Internet Explorer 11~~ This is now actively being retired
-  - Microsoft Edge
-  - Google Chrome
-  - Firefox
+* Microsoft Project
+* Microsoft Visio
+* Adobe Acrobat Pro
 
-  IE11 will be replaced by Microsoft Edge (Chromium) with enterprise mode configured to redirect sites known to need IE to use the built-in IE-mode. It is possible that Chrome will then be removed.
+## Non-standard applications
 
-## NHSX Specific
+Non-standard applications may be requested via the *Technology Request & Requirements Form* on the IT Service Portal (Service Now) and will be assessed by the weekly Technical Design Authority.
 
-Only differences from the [Common Standard](#common-standard) are listed.
+However, even where such software has a free license, there is still a cost to the organisation for maintaining it and so that cost must be recovered from a budget.
 
-- Chrome is being temporarily retained while Google services are still active, will migrate to Edge eventually.
+Users should always check the available catalogue for existing applications before spending time on a bespoke request.

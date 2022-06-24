@@ -1,13 +1,13 @@
 ---
 title: Web Development Standards
 description: >
-   NHSEI requires that most if not all business applications and services with user-facing interfaces
+   NHS England requires that most if not all business applications and services with user-facing interfaces
    use the browser as the client. Therefore the majority of development should include web development.
 
-   This page defines the basic requirements for web applications developed by and for NHSEI and NHSX.
+   This page defines the basic requirements for web applications developed by and for NHS England.
 stage: 3. Development Stage
 created: 2021-09-30 10:35:48
-lastUpdated: 2021-11-24 17:19:54
+lastUpdated: 2022-06-24 10:39:31
 author: Julian Knight
 ---
 
@@ -18,7 +18,7 @@ Note that NO _publicly_ accessible web application, site, or service may be deve
 All web application development:
 
 * **MUST follow the [common development standards](application-development/common-dev/readme).**
-* MUST use the common web development stack defined by NHSEI below.
+* MUST use the common web development stack defined by NHS England below.
 * MUST meet W3C Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) v2.1 standards for accessibility. All developments MUST be accessibility tested and MUST meet at least level AA compliance. Further information is contained in the [GDS Service Manual](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements). See also the [Accessibility page](application-development/common-dev/accessibility).
 * MUST use open web-development standards.
 

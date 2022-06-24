@@ -1,11 +1,11 @@
 ---
 title: Accessibility
 description: >
-   All applications, systems and services in use at NHSEI and NHSX must be accessible to all. This standard provides pointers to what that means
+   All applications, systems and services in use in the NHS must be accessible to all. This standard provides pointers to what that means
    and what responsibilities developers, documentors, implementors and vendors have.
 stage: 4. Final Approval Stage
 created: 2021-09-30 10:35:48
-lastUpdated: 2022-02-10 12:56:03
+lastUpdated: 2022-06-24 12:42:23
 author: Julian Knight
 ---
 
@@ -13,8 +13,8 @@ Accessibility **MUST** be considered in all application development. It must als
 
 **This is both a legal and a moral requirement.**
 
-All applications developed by and on behalf of NHS England, NHS Improvement and NHSX MUST use the [DCB1605](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb1605-accessible-information) standard.
-While this mostly focuses on patient facing services, it applies to all applications and services for NHSEI.
+All applications developed by and on behalf of NHS England MUST use the [DCB1605](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb1605-accessible-information) standard.
+While this mostly focuses on patient facing services, it applies to all applications and services for the NHS.
 The standard also details the legal responsibilities and provides references explaining why accessibility is critical
 for our systems.
 

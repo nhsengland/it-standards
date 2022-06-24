@@ -1,17 +1,17 @@
 ---
 title: Standards for new IT Services
 description: >
-   NHSEI operates a cloud-first and SaaS-first approach to IT in line with UK Government guidelines.
+   NHS England operates a cloud-first and SaaS-first approach to IT in line with UK Government guidelines.
    As such, it is much preferred for new IT to be procured as a managed _Service_ rather than as a system.
 
    This section provides guidance on the procurement and management of IT Services.
 stage: 3. Development Stage
 created: 2021-11-29 12:05:40
-lastUpdated: 2021-11-29 12:05:46
+lastUpdated: 2022-06-24 10:52:30
 author: Julian Knight
 ---
 
-The focus and priority of NHSEI is on the management of healthcare in England. It is not on the development of bespoke software and services.
+The focus and priority of NHS England is on the management of healthcare in England. It is not on the development of bespoke software and services.
 
 As such, we should always be looking for _standard operating models_ and _Commercial Off-The-Shelf (COTS)_ products wherever possible.
 This gives us the benefits of many other people and organisations inputting to the operating model in order to find the best one

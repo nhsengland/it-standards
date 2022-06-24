@@ -5,10 +5,10 @@ description: >
 stage: 5. Live
 reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2021-09-30 11:32:23
+lastUpdated: 2022-06-24 10:52:06
 ---
 
-Please note that this guidance is based on [that of the Ministry of Justice](https://ministryofjustice.github.io/security-guidance/guidance-for-using-open-internet-tools) and adapted for use at NHSEI.
+Please note that this guidance is based on [that of the Ministry of Justice](https://ministryofjustice.github.io/security-guidance/guidance-for-using-open-internet-tools) and adapted for use at NHS England.
 
 **This information applies to all staff, seconded, embedded, and contractor users who work with and for NHS England and NHS Improvement.**
 
@@ -25,7 +25,7 @@ This guidance gives you:
 
 Open Internet Tools (OITs) are applications or services from suppliers outside the NHS. They often have the following characteristics:
 
-- They are general purpose. This means they are not specific to the NHSEI. Other organisations can use them.
+- They are general purpose. This means they are not specific to the NHS England. Other organisations can use them.
 - They are accessed using the Internet, usually through a web browser. This means that if you have Internet access, you are able to connect to the tools.
 - They have a basic 'free-to-use' version. This means that you are able to use some or all the capabilities, but with some constraints. For example, an online word-processor might limit you to 5 documents in your account.
 - They have one or more 'paid for' versions. By paying for the tool, you unlock some or all the constraints.
@@ -57,7 +57,7 @@ If in doubt, contact Corporate IT and Smarter Working via the Intranet or the Se
 
 ### Why OITs are an opportunity
 
-OITs offer some significant advantages for you and the NHSEI, including:
+OITs offer some significant advantages for you and the NHS England, including:
 
 - Enabling you to work the way you want to, more effectively.
 - Usually cheaper than buying or building and supporting a dedicated tool.
@@ -140,21 +140,21 @@ Most OITs let you export your data. You can then store it on an appropriate NHS 
 
 ### Service and support
 
-OITs are often intuitive and reliable. But that doesn't mean they are always available and always work as you expect. NHSEI can not provide technical support or ensure service availability for them. Always have another way of working if the OIT is not available for some reason or for any length of time. In other words, don't let an OIT become business critical.
+OITs are often intuitive and reliable. But that doesn't mean they are always available and always work as you expect. NHS England can not provide technical support or ensure service availability for them. Always have another way of working if the OIT is not available for some reason or for any length of time. In other words, don't let an OIT become business critical.
 
 Check the OIT usage agreement to find out more about the service and support available.
 
-**Note:** NHSEI cannot provide technical support for OITs.
+**Note:** NHS England cannot provide technical support for OITs.
 
 ## Common OITs
 
-There are already many OITs used across NHSEI. Permission to use an OIT might vary, depending on where you work in NHSEI. For example, some teams must not access or use some OITs, for security or operational reasons.
+There are already many OITs used across NHS England. Permission to use an OIT might vary, depending on where you work in NHS England. For example, some teams must not access or use some OITs, for security or operational reasons.
 
 **Note:** Check with your Line Manager if you want to use an OIT for your work, *before* you use it.
 
 ## Requesting that an app be approved for use
 
-If there is an application or service that is not currently approved, but which you would like to use, you can request a security review from the NHSEI Cyber Security team.
+If there is an application or service that is not currently approved, but which you would like to use, you can request a security review from the NHS England Cyber Security team.
 
 The app will be reviewed, to check things like how safe it is to use, and whether there are any Data Privacy implications. The security team will respond to you with an answer as quickly as possible but they get many requests so please leave plenty of time and be patient.
 

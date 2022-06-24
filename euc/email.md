@@ -4,11 +4,11 @@ description: >
    Standards and requirements for user-facing email.
 stage: 3. Development Stage
 created: 2021-07-06 14:24:16
-lastUpdated: 2021-07-06 14:24:22
+lastUpdated: 2022-06-24 10:41:09
 author: Julian Knight
 ---
 
-NHSEI use two email services, our own Office 365 Exchange Online and the NHSmail service.
+NHS England use two email services, our own Office 365 Exchange Online and the NHSmail service.
 
 At the time of writing, NHSmail is the primary service and O365 the secondary. This may change in the future.
 
@@ -16,13 +16,13 @@ Both systems are certified to the NHS [DCB1596 Secure Email Standard](https://di
 
 Either system is certified therefore for the exchange of OFFICIAL-SENSITIVE information including personal and patient identifiable.
 
-!> Other email systems MUST NOT be used for NHSEI official business. Under no circumstances may personal or consumer email services be used for NHSEI business.
+!> Other email systems MUST NOT be used for NHS England official business. Under no circumstances may personal or consumer email services be used for NHS England business.
 
 ?> Note that the exchange of OFFICIAL-SENSITIVE information may be subject to other Information Governance policies. If in doubt, please contact your local or national IG representative.
 
 ## Acceptible use
 
-The NHSEI and NHS email services are for OFFICIAL NHS business. All emails are subject to the overall Acceptible Use Policy as well as the NHS Digital (for NHSmail) and Microsoft usage policies.
+The NHS England and NHS email services are for OFFICIAL NHS business. All emails are subject to the overall Acceptible Use Policy as well as the NHS Digital (for NHSmail) and Microsoft usage policies.
 
 !> Emails sent from an official email service are treated as **legal documents** and are [classified as OFFICIAL](https://www.gov.uk/government/publications/government-security-classifications) unless otherwise marked.
 

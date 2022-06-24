@@ -4,11 +4,11 @@ description: >
    Defines the standards for all digital networking including Local and Wide-Area Networks (LAN, WAN).
 stage: 3. Development Stage
 created: 2021-06-14 10:16:44
-lastUpdated: 2022-04-06 12:12:01
+lastUpdated: 2022-06-24 10:41:52
 reviewDate: 2022-10-01
 ---
 
-Note that networking for NHSEI is subject to the requirements of the _[DSP Toolkit](https://www.dsptoolkit.nhs.uk/)_ and _[Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview)_ certification.
+Note that networking for NHS England is subject to the requirements of the _[DSP Toolkit](https://www.dsptoolkit.nhs.uk/)_ and _[Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview)_ certification.
 
 ## General
 

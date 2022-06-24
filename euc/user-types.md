@@ -4,7 +4,7 @@ description: >
    Defines the different user types that are used to indicate what type of device that user requires.
 stage: 3. Development Stage
 created: 2021-05-04 15:53:00
-lastUpdated: 2021-05-04 17:25:00
+lastUpdated: 2022-06-24 12:42:18
 ---
 
 This document outlines the different types of users, the software and configuration they can expect, and the device types that they will be allocated as standard.
@@ -14,7 +14,7 @@ The currently identified types are:
 1) Standard User
 2) Power/Developer User
 3) Highly Mobile User
-4) NHSX and other organisations
+4) User requiring Reasonable Adjustments
 
 Device types are detailed in [Desktop Devices](./desktop-devices.md).
 
@@ -60,7 +60,7 @@ Developer accounts have the following benefits:
   
 They have the following restrictions:
 * They **MUST** still meet the minimum security standards. They must retain strong login credentials, encrypted drives, and centrally configured Microsoft Defender (inlcuding all of the "guard" services). Users deliberately configuring devices to avoid these restrictions will have their increased rights removed without warning and may be subject to disciplinary procedings.
-* The device **MUST NOT** be shared with another person - whether that person is an employee of NHSEI or not. 
+* The device **MUST NOT** be shared with another person - whether that person is an employee of NHS England or not. 
   
   Note that it is possible to have a developer _device_ that could be shared. That would be a bespoke request to IT PMO and would be subject to different restrictions.
   
@@ -84,6 +84,6 @@ Highly mobile users are presumed not to be required to author large, complex doc
 
 Such users may choose to have an iPad Pro device _instead of_ a laptop. Users must agree with their line managers that such a device is suitable for their workload. Users may not choose to have both types of device.
 
-## 4) NHSX and other organisations
+## 4) User requiring Reasonable Adjustments
 
-Other organisations than NHSEI have their own standards for devices and their own definitions of user types. However, they may choose to adopt these standards.
+Reasonable adjustments are assessed by a standard processes. A specific laptop type is available that has a larger screen and may be suitable for some people with eyesight issues.
