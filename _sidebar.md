@@ -17,6 +17,7 @@
   - [Web Apps](application-development/web-dev/readme)
   - [Mobile Apps](application-development/mobile-dev/readme)
   - [Desktop Apps](application-development/desktop-apps)
+  - [Dependency Management](application-development/dependencies)
   
 - End User Compute (EUC)
 
@@ -24,6 +25,7 @@
   - [Desktop Devices](euc/desktop-devices)
   - [Desktop Software](euc/desktop-software)
   - [End User Email Services](euc/email)
+  - [Software Versions](euc/permitted-versions)
   - [User Types](euc/user-types)
   - [Windows 10 Std Apps](euc/windows-10-standard-apps)
 

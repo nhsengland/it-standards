@@ -28,7 +28,7 @@ All development:
 * MUST follow the common and other development standards in this repository.
 * MUST follow the NHS England [Identity and Access Management](idam/readme) and [Security](security/readme.md) standards in this repository.
 * MUST use [open standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles) wherever possible.
-* MUST use the [standard license and copyright](application-development/common-dev/code-license-and-copyright.md).
+* MUST use the [license and copyright standards](application-development/common-dev/code-license-and-copyright.md).
 * MUST follow the [NHS](https://service-manual.nhs.uk/) and [UK Government](https://www.gov.uk/service-manual) (Cabinet Office Government Digital Service) Design Manual's.
 * MUST follow the security guidelines set out by the National Cyber Security Centre (NCSC).
 * MUST meet the accessibility requirements contained in the [GDS Service Manual](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements). See also the [Accessibility page](application-development/common-dev/accessibility). Accessibility is also a legal requirement.

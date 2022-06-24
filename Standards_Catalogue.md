@@ -3,7 +3,7 @@ title: Catalogue of IT Standards for NHS England and NHS Improvement
 description: >
    A list of the available standards.
 created: 2020-06-29
-lastUpdated: 2021-09-30 14:37:04
+lastUpdated: 2022-06-24 13:47:33
 author: Julian Knight
 ---
 
@@ -24,27 +24,37 @@ author: Julian Knight
 
     Business applications are bespoke applications developed on corporate/business platforms and will typically use C#, C++, Visual Basic.net, SQL Server, etc. They may be hosted on-premise or in the cloud.
 
-  - [Web Applications Development](./application-development/web-dev/readme)
-
-    Internet applications are mostly Internet facing, they may be public or private. They are developed using Internet standards such as HTML, CSS, JavaScript, etc.
-
   - [Platform Applications Development](./application-development/platform-dev/readme)
 
     Platform development refers to developing systems and solutions on existing platforms such as Office 365 or Dynamics 365. It does not refer to cloud platforms such as Azure or AWS since these are infrastructure platforms rather than application platforms.
+
+  - [Web Applications Development](./application-development/web-dev/readme)
+
+    Internet applications are mostly Internet facing, they may be public or private. They are developed using Internet standards such as HTML, CSS, JavaScript, etc.
 
   - [Mobile Applications Development](./application-development/mobile-dev/readme)
 
     Development of applications for mobile devices (those running mobile operating systems such as Apple iOS and Google Android).
 
+  - [Desktop Applications Development](./application-development/mobile-dev/readme)
+
+    Development of applications for desktop devices (those running desktop operating systems such as Apple MacOS and Microsoft Windows).
+
+  - [Dependency & Software Version Management](./application-development/dependencies)
+
+    Standards and guidance on managing software and service dependencies and version control.
+
+ 
 - **[End User Compute (EUC)](./euc/readme)** - desktop and mobile
 
   Standards covering all matters relating to end-user computing. Including devices, operating systems and applications. Both mobile and desktop.
 
+  * [Standards for Desktop EUC devices](euc/desktop-devices)
   * [Desktop Software](euc/desktop-software)
   * [End User Email Services](euc/email)
-  * [Standards for Desktop EUC devices](./euc/desktop-devices.md)
-  * [Windows 10 Standard Applications](./euc/windows-10-standard-apps.md)
+  * [Software Version Standards](euc/permitted-versions)
   * [User Types](euc/user-types)
+  * [Windows 10 Standard Applications](euc/windows-10-standard-apps)
 
 
 - **[Identity and Access Management](./idam)**
@@ -59,8 +69,8 @@ author: Julian Knight
 
   Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
 
-  * [Cloud Infrastructure](./infrastructure/cloud)
-  * [Physical Infrastructure (On-Premise, Data-Centre)](./infrastructure/physical)
+  * [Cloud Infrastructure](infrastructure/cloud)
+  * [Physical Infrastructure (On-Premise, Data-Centre)](infrastructure/physical)
   * [Networks](infrastructure/networks) - Local and Wide-Area Networks (LAN, WAN)
 
 - **[Security](./security)** - Security and Privacy
