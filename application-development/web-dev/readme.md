@@ -7,7 +7,7 @@ description: >
    This page defines the basic requirements for web applications developed by and for NHS England.
 stage: 3. Development Stage
 created: 2021-09-30 10:35:48
-lastUpdated: 2022-06-24 10:39:31
+lastUpdated: 2022-06-27 10:14:01
 author: Julian Knight
 ---
 
@@ -25,7 +25,7 @@ All web application development:
 All web applications:
 
 * MUST be Penetration Tested using either our internal tool or an external vendor to current security standards. The Cyber Security team will advise.
-* MUST only allow HTTPS access. HTTP access should be automatically redirected to HTTPS. This applies to ALL services without exception. Only [TLS v1.2 or above](../../security/tls.md) is permitted.
+* MUST only allow HTTPS access. HTTP access should be automatically redirected to HTTPS. This applies to ALL services without exception. Only [TLS v1.2 or above](security/tls.md) is permitted.
 * MUST test the quality of their TLS configuration. Using something like the [Qualys SSL Labs website](https://www.ssllabs.com/ssltest/) (Should have a rating of A).
 
 ## Development processes

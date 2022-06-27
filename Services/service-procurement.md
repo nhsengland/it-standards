@@ -7,7 +7,7 @@ description: >
    This section provides some guidance on expected requirements for service procurements and should be included in ITT's.
 stage: 3. Development Stage
 created: 2021-11-29 12:05:40
-lastUpdated: 2022-06-24 12:41:16
+lastUpdated: 2022-06-27 10:13:40
 author: Julian Knight
 ---
 
@@ -246,7 +246,7 @@ In summary:
 
   Services not meeting these requirements will come under additional scrutiny and may be rejected.
 
-  See the [Identity & Acess Management (IDAM)](./../idam/) sections of the standards for more detail.
+  See the [Identity & Acess Management (IDAM)](idam/) sections of the standards for more detail.
 
 * All actions and events requiring security must be logged and the individual making changes must be clearly identified.
   
