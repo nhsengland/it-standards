@@ -3,7 +3,7 @@ title: Catalogue of IT Standards for NHS England and NHS Improvement
 description: >
    A list of the available standards.
 created: 2020-06-29
-lastUpdated: 2022-06-24 13:47:33
+lastUpdated: 2022-08-12 11:52:50
 author: Julian Knight
 ---
 
@@ -15,10 +15,11 @@ author: Julian Knight
 
     - [Accessibility](application-development/common-dev/accessibility)
     - [Authentication](application-development/common-dev/authentication)
+    - [Email Integration for Business Applications](application-development/common-dev/email-integration)
+    - [Infrastructure](application-development/common-dev/infrastructure)
     - [License and Copyright](application-development/common-dev/code-license-and-copyright)
     - [Security](application-development/common-dev/security)
     - [Testing](application-development/common-dev/testing)
-    - [Email Integration for Business Applications](application-development/common-dev/email-integration)
 
   - [Business Applications Development](./application-development/business-dev/readme)
 
@@ -57,7 +58,7 @@ author: Julian Knight
   * [Windows 10 Standard Applications](euc/windows-10-standard-apps)
 
 
-- **[Identity and Access Management](./idam)**
+- **[Identity and Access Management](./idam/readme.md)**
 
   Standards for identifying, authenticating and authorising people and systems. Note that this does not include the _processes_ being used, only the standards.
 
@@ -65,21 +66,26 @@ author: Julian Knight
   - [People Database](idam/peopledb) - Using the database of staff information
 
 
-- **[Infrastructure](./infrastructure)** - cloud and on-premise/data centre
+- **[Infrastructure](./infrastructure/readme.md)** - cloud and on-premise/data centre
 
   Standards covering all elements of infrastructure. This is defined as "back-end" hardware and software that supports business applications, networking, security, etc.
 
   * [Cloud Infrastructure](infrastructure/cloud)
   * [Physical Infrastructure (On-Premise, Data-Centre)](infrastructure/physical)
   * [Networks](infrastructure/networks) - Local and Wide-Area Networks (LAN, WAN)
+  * [Availability](infrastructure/availability)
 
-- **[Security](./security)** - Security and Privacy
+- **[Security](./security/readme.md)** - Security and Privacy
 
   Standards related to security and privacy.
 
   - [Cloud Apps & Services Guidance](security/acceptable-cloud-tools)
   - [Guidance for using Open Internet Tools](security/guidance-for-using-open-internet-tools)
   - [TLS Standards](security/tls) - How to properly use Transport Level Security
+
+- **[Services](Services/readme.md)** - IT Service procurement and implementation
+
+  - [Procurement Requirements](Services/service-procurement.md)
 
 - **Other Applicable UK Government and NHS Standards**
 
