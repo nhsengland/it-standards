@@ -4,8 +4,8 @@ description: >
    Defines the standards for all digital networking including Local and Wide-Area Networks (LAN, WAN).
 stage: 3. Development Stage
 created: 2021-06-14 10:16:44
-lastUpdated: 2022-06-24 10:41:52
-reviewDate: 2022-10-01
+lastUpdated: 2022-08-12 11:54:06
+reviewDate: 2023-01-02
 ---
 
 Note that networking for NHS England is subject to the requirements of the _[DSP Toolkit](https://www.dsptoolkit.nhs.uk/)_ and _[Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview)_ certification.
@@ -28,6 +28,8 @@ Note that networking for NHS England is subject to the requirements of the _[DSP
 - All LAN hardware should use SD-LAN technology.
 - All sites MUST have an edge firewall. This MUST be a centrally managed, SD-network device.
 - Site firewalls MUST NOT be individually configured. A single, central configuration must be used.
+- IoT devices, door controls, and consumer-grade devices (such as smart-TV's) MUST all go on at least separate VLANs and preferably on physically isolated LAN segments.
+- Network-connected devices MUST be firmware and software updatable and MUST have access ids/passwords that can be changed.
 
 ### Corporately provisioned Wi-Fi
 
