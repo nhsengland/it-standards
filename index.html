@@ -113,7 +113,7 @@
 
                     // Runs against the raw markdown for each page
                     hook.beforeEach(function(content) {
-                        //console.log({content})
+                        // console.log({content})
 
                         let strYr = (new Date()).getFullYear()
                         let mydate = false
@@ -145,13 +145,22 @@
                             //#endregion ---  ---
 
                             //#region --- Add page specific (c) and last updated date to each page if available from YAML front-matter ---
-                            if ( vm.frontmatter.created ) {
+                            if ( vm.frontmatter.created ) { // uib docs/Obsidian
                                 mydate = new Date(vm.frontmatter.created)
+                                yearFrom = mydate.getFullYear()
+                            } else if ( vm.frontmatter.date ) { // Hugo
+                                mydate = new Date(vm.frontmatter.date)
                                 yearFrom = mydate.getFullYear()
                             }
 
-                            if ( vm.frontmatter.lastUpdated ) {
+                            if ( vm.frontmatter.lastUpdated ) { // uib/IT Stds docs
                                 mydate = new Date(vm.frontmatter.lastUpdated)
+                                yearTo = mydate.getFullYear()
+                            } else if ( vm.frontmatter.updated ) { // Obsidian
+                                mydate = new Date(vm.frontmatter.updated)
+                                yearTo = mydate.getFullYear()
+                            } else if ( vm.frontmatter.Lastmod ) { // Hugo
+                                mydate = new Date(vm.frontmatter.Lastmod)
                                 yearTo = mydate.getFullYear()
                             }
 
