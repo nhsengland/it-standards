@@ -5,7 +5,7 @@ description: >
 stage: 5. Live
 reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2022-06-24 12:41:26
+lastUpdated: 2023-01-27 11:09:58
 author: Julian Knight
 ---
 
@@ -92,13 +92,15 @@ The bottom line is:
 
 ## Accessibility
 
-All tools in use in NHS England MUST be accessible to all. This is both a legal and moral requirement.
+**All tools in use in NHS England MUST be accessible to all**. This is both a legal and moral requirement.
 
 Please see the [accessibility document in the development section](application-development/common-dev/accessibility) for more information regarding standards that must be met.
 
 ## Corporate tools
 
 These are the preferred corporate tools for communications and collaboration. These should always be used by preference. They are secured to NHS and UK Government approved levels, have audit capabilities, backup and retention data policies and are generally centrally funded.
+
+!> Note that the [catalogue of Modern Desktop applications](https://nhsengland.sharepoint.com/sites/ICTArchitectureDesign/SitePages/Modern-Desktop-Apps.aspx) which is available to NHS England staff, related organisations and key vendors not only lists all of the available Windows applications but is being used to also list both acceptable and unacceptable web services. That is a work-in-progress, however it should be considered definitive. These lists are indicitive.
 
 <!-- Editors Note: Tables are best edited in Typora or an equivalent WYSIWYG tool -->
 
@@ -130,14 +132,14 @@ The following tools are known to be in use and have at least tacit approval *wit
 |Google Meet \(was Google Hangouts\)|Communication tool: Video and/or voice|Approved for business use **only** if you have a G-Suite ***Enterprise*** license (Was NHSX but now being DEPRECATED).<br />Otherwise, avoid personal or sensitive data| Web browser. Smartphone App (personal Apple ID required)   |External|
 |Miro|Collaboration tool: Whiteboarding|Avoid personal or sensitive data<br />*Please consider using Mural instead which has some corporate support and licensing.*|Web browser|Internal/External|
 |~~Skype for Business~~|*Communication tool: Video and/or voice*| *No longer needed for any purpose. Use Microsoft Teams instead* |--|--|
-|Slack|Text messaging, Voice/Video calls, etc.|Avoid personal or sensitive data| Web browser                                                  |Internal/External|
+|Slack|Text messaging, Voice/Video calls, etc.|Avoid personal or sensitive data<br />For most use-cases, Microsoft Teams should be used, not Slack. All NHSE staff are fully licensed already for Teams.| Web browser                                                  |Internal/External|
 |Slido|Q&A tool during presentations|Avoid personal or sensitive data.<br />*Avoid for corporate use, Menti is available instead.*|Web browser|Internal|
 |Twitter|Text Messaging, Video transmission|There is an official NHS England Twitter account.<br />Using a personal account to comment on work related issues is fine as long as you follow the NHS England Social Media and [Standards of Business Conduct](https://www.england.nhs.uk/publication/standards-of-business-conduct-policy/) Policies.|Web browser, Smartphone App (personal Apple ID required)|Internal/External|
-|Trello|Web-based, Kanban-style, list-making|Not cleared for OFFICIAL use. Avoid personal or sensitive data.<br />Data is based in USA.<br />**WARNINGS**: <br />1) Tools from Atlassian including Trello may track a lot of personal data which may be passed to 3rd-party advertisers and trackers. <br />2) Vendor admins have access to the data you put into Trello.<br />3) The use of "Power-Ups" may transfer data to other parties with different privacy statements.|Web browser<br />Some paid accounts available to Transformation Directorate users however its use is being DEPRECATED.|Internal/External|
+|Trello|Web-based, Kanban-style, list-making|Not cleared for OFFICIAL use. Avoid personal or sensitive data.<br />Data is based in USA.<br />**Microsoft Planner should be used for most use-cases.**<br />**WARNINGS**: <br />1) Tools from Atlassian including Trello may track a lot of personal data which may be passed to 3rd-party advertisers and trackers. <br />2) Vendor admins have access to the data you put into Trello.<br />3) The use of "Power-Ups" may transfer data to other parties with different privacy statements.|Web browser<br />Some paid accounts available to Transformation Directorate users however its use is being DEPRECATED.|Internal/External|
 |WeTransfer|File Sharing|May be used for transfer of non-sensitive information to/from 3rd-parties.<br />**DO NOT transfer sensitive information without strong pre-encryption.**<br />Must not be used for file storage, only as a temporary method of information transfer.|Web Browser|External|
 |WhatsApp|Text messaging, Voice/Video calls|Avoid personal or sensitive data.<br />*Should not be used for official business since there is no audit capability or records management.*<br />**Recommend** using Signal rather than WhatsApp.|Web browser, Smartphone App (personal Apple ID required)<br />Recommend using the business version of the app to help keep personal and official use separate.|Internal/External|
 |YouTube|Video sharing tool: Video, streaming and chat|Avoid personal or sensitive data.<br />*Uploading of official videos must go through the Corporate Communications team.*|Web browser based use.|Internal/External|
-|Zoom|Communication tool: Video, voice and chat|Avoid personal or sensitive data.<br />Zoom may be used to participate in meetings arranged by other organisations but *it must not be used to facilitate meetings by NHS England*, Teams must be used for that.|Web browser based use. *The Zoom client is not generally available on corporate PC's.*|External meetings|
+|Zoom|Communication tool: Video, voice and chat|Avoid personal or sensitive data.<br />Zoom may be used to participate in meetings arranged by other organisations but *it **must not be used to facilitate meetings by NHS England***, Teams must be used for that.|Web browser based use. *The Zoom client is not generally available on corporate PC's.*|External meetings|
 
 ## Unapproved tools
 

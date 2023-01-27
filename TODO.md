@@ -2,7 +2,7 @@
 
 ## Needs adding
 
-* MFA requirements
+* MFA requirements (started)
 
 * API standards. Swagger/OpenAPI. See: https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design, https://nordicapis.com/how-to-manage-1000-specs-at-scale/, https://openapi.tools/, https://www.techtarget.com/searchapparchitecture/tip/How-to-improve-API-documentation-with-Swagger-and-OpenAPI, https://swagger.io/
 

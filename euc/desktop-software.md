@@ -4,7 +4,7 @@ description: >
    Selection and deployment processes for authorised desktop software
 stage: 3. Development Stage
 created: 2021-05-04 15:53:00
-lastUpdated: 2022-06-24 10:40:40
+lastUpdated: 2023-01-27 11:39:34
 ---
 
 For standard users, only two mechanisms exist for delivery of desktop software to a users desktop:
@@ -16,29 +16,31 @@ Standard users may not install or run arbitary desktop software.
 It should be noted that **ALL** EUC devices issued by NHS England are subject to ongoing operational and security monitoring.
 Compromised devices may be remotely locked and/or wiped.
 
-## Power/Developer Users
+## Specific User Classes
 
-Power/Developer users are able to also install their own desktop software. However, no service desk support is given for such applications,
-and desktop issues arising from local installations may result in the users desktop being completely reset back to factory fresh.
+### "Power" Users
 
-In addition, such users agree to take responsibility for the security of their desktop and the security and safety of the information
-they deal with.
+It is recognised that some users require more capabilities from their laptop. The NHS England Modern Desktop already accommodates most of these needs unlike the legacy builds. Power users will no longer be given local administration rights to their laptop in order to protect the integrity of the corporate devices and service.
 
-Specifically, such users **MUST NOT** reduce the security of their desktops by removing the approved security software, leaving drives
-unencrypted or reducing/removing login security. Breach of this agreement will at least result in removal of the power/developer status and
-might result in HR involvement.
+Where local administrative access is required for specific reasons (such as a sponsored university course), a remote desktop environment can be provisioned.
 
-## Legacy Service
+Where users believe that they need a higher-than-average powered device, they can put in a request via the service management portal. However, they will be required to demonstrate a genuine need which will be reviewed by the Technical Design Authority (TDA). If approved, there will be a charge-back to the users local cost code for the additional cost.
 
-For the legacy managed desktop services, all software either has to be formally packaged and tested by our service providers 
-**or** is manually installed by out service providers to an individual users desktop. Note that there is a cost for each
-of these services even if the software has a free license. All new applications must be approved by the appropriate Technical Design Authority
-and may need to be approved by the security board.
+### Data Scientists and Analysts
+
+Many of the tools used have now been made available to all users via the NHS England Modern Desktop. Some specialist tools will not be made available on Modern Desktop and users will need to use a suitable remote desktop environment.
+
+### Developers
+
+Many developer tools have now been made available to all users via the NHS England Modern Desktop. However, there are some tools that are not compatible with a managed enterprise desktop. Most notably the full version of Microsoft Visual Studio. In those cases, users will need to use a suitable remote desktop environment.
+
+## Legacy Services
+
+Changes to any of the legacy managed desktops are no longer accepted except in a critical emergency.
 
 ## Modern Desktop Service
 
-For the Modern Desktop, there are three tiers of application management, each of which carries a different level of cost and adminsitrative
-overhead to the business while allowing maximum flexibility:
+For the Modern Desktop, there are three tiers of application management, each of which carries a different level of cost and administrative overhead to the business while allowing maximum flexibility. The definitive list of Windows desktop applications is available in the [Modern Desktop Applications Catalogue](https://nhsengland.sharepoint.com/sites/ICTArchitectureDesign/SitePages/Modern-Desktop-Apps.aspx) which is available to all NHS England and related organisation staff and key partner vendors.
 
 1) **Fully tested**
    
@@ -62,7 +64,7 @@ overhead to the business while allowing maximum flexibility:
 
    Minimally tested applications must still go through the request and triage process and be approved.
    
-   Once approved however, they will only be given and abreviated packaging and cursory testing before being released to a self-service portal.
+   Once approved however, they will only be given and abbreviated packaging and cursory testing before being released to a self-service portal.
    
    Software updates will follow our standards which is that security patches will be rapidly applied but other updates will be kept at the minimum
    to keep the software in a currently supported version.
@@ -95,9 +97,13 @@ overhead to the business while allowing maximum flexibility:
 
 Many desktop applications connect to external 3rd-party cloud services. Such applications MUST NOT be used without prior approval from both CISW and IG. Specifically, IT Security checks and Privacy checks will be required.
 
+Local administrative elevated rights are no longer permitted on NHS England devices other than for approved administrators. This is to help ensure that the corporate services and users are protected. Alternative provisions are provided for the few exceptions.
+
+NHS England actively monitor corporate end-user devices and services. This includes but is not limited to monitoring what applications have been used and what Internet endpoints people have accessed. Except for specifically identified threats and legal requests, this monitoring is mostly automated with threats and alerts surfaced in our Security Operations Centre and Service Management tools.
+
 ## Open Source & Free Software
 
-It is UK Government policy that open source applications should be considered wherever feasible.
+It is UK Government and NHS policy that open source applications should be considered wherever feasible.
 
 However, the following things should be considered:
 
