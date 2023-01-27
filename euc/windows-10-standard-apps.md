@@ -4,11 +4,15 @@ description: >
    Defines the standard applications for devices running a desktop OS
 stage: 3. Development Stage
 created: 2020-06-15 10:00:00
-lastUpdated: 2022-06-24 12:42:10
-reviewDate: 2022-11-01
+lastUpdated: 2023-01-27 10:21:33
+reviewDate: 2023-12-01
 ---
 
 These are the standard applications that users can expect to have on their Windows 10 desktop OS.
+
+For anyone with access to the NHS England Intranet, the [catalogue of core, allowed and rejected Windows applications is published](https://nhsengland.sharepoint.com/sites/ICTArchitectureDesign/SitePages/Modern-Desktop-Apps.aspx). Requests for the consideration of new applications are made via the [Technology Request & Requirements Form](https://futureservices.service-now.com/sp?id=sc_cat_item&sys_id=ac32e94e1bd5b01030b0ea8b274bcb26) from the  Service Portal.
+
+Colleagues and vendors should remember that NHS England has a strategic approach that requires browser-based tools to be the first choice. Desktop applications should be avoided where possible.
 
 ## Common Standard
 

@@ -5,13 +5,15 @@ description: >
    and what responsibilities developers, documentors, implementors and vendors have.
 stage: 4. Final Approval Stage
 created: 2021-09-30 10:35:48
-lastUpdated: 2022-06-24 12:42:23
+lastUpdated: 2023-01-27 09:48:23
 author: Julian Knight
 ---
 
 Accessibility **MUST** be considered in all application development. It must also be considered in the procurement of off-the-shelf services and applications. 
 
 **This is both a legal and a moral requirement.**
+
+**Accessibility applies to an application, its documentation and its code.**
 
 All applications developed by and on behalf of NHS England MUST use the [DCB1605](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb1605-accessible-information) standard.
 While this mostly focuses on patient facing services, it applies to all applications and services for the NHS.
@@ -52,6 +54,7 @@ Implementors of off-the-shelf applications and services also need accessibility 
 * "Linting" - when developing user interfaces, linting tools provide both as-you-type and batch checking of code quality. This can include basic accessibility. This is especially important for web development where there are many accessibility-specific attributes that should be used as standard (they mostly start with the word "aria").
 * Testing in the browser - browsers such as Edge and Chrome include accessibility tests in their "Developer Tools" which are a free part of every browser. Check out the "Lighthouse" tool for example.
 * Microsoft Office - if writing documents using MSFT Office, make use of the built-in accessibility tests to ensure that documents are readable by people with specific accessibilty needs.
+* When producing documentation, the use of **PDF files should be avoided**. PDF's are rarely accessible and are also difficult to maintain and even harder to update or even to comment on.
 
 ## References
 

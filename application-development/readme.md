@@ -5,7 +5,7 @@ description: >
   Most of these standards also apply to off-the-shelf software and services.
 stage: 3. Development Stage
 created: 2020-11-17 13:23:29
-lastUpdated: 2022-06-24 12:42:34
+lastUpdated: 2023-01-27 10:22:03
 ---
 
 Please also see [#Issue 4](https://github.com/nhsengland/it-standards/issues/4) for the proposal for these standards.
@@ -60,5 +60,6 @@ Things to cover (in no specific order):
 * Containerisation - where it makes sense, using Kubernetes.
 * Identity and Access Management - end users, administrators - _requires a separate document_ - TL:DR Okta for "external" users, Azure SSO/AAD for assured internal users. Current use of Okta is for non-assured identities only (no identity assurance and no authorisation. If this is required, a separate instance of Okata may be required).
 * Copyright & Licensing - see [Issue #2](https://github.com/nhsengland/it-standards/issues/2) and [PR #3](https://github.com/nhsengland/it-standards/pull/3) - Crown Copyright & dual MIT/OGL licensing.
+* Documentation - needs to be accessible, comprehensive and living. PDF's should always be avoided.
 
 Note that these standards should be used by all projects. If a project has a legitimate need to do something different, that will require review and approval from the Architecture Review Board.

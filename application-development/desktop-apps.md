@@ -4,7 +4,7 @@ description: >
    Standards for the Development of Desktop Applications
 stage: 3. Development Stage
 created: 2021-06-10 09:06:00
-lastUpdated: 2022-06-24 10:25:48
+lastUpdated: 2023-01-27 09:48:23
 author: Julian Knight
 ---
 

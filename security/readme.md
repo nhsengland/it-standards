@@ -4,7 +4,7 @@ description: >
    General security standards and guidance for NHS England & NHS Improvement.
 stage: 3. Development Stage
 created: 2021-06-08 17:20:00
-lastUpdated: 2021-06-30 20:26:00
+lastUpdated: 2023-01-27 10:42:28
 ---
 
 ## More information in this section of the standards
@@ -12,6 +12,16 @@ lastUpdated: 2021-06-30 20:26:00
 - [Guidance for using Open Internet Tools](security/guidance-for-using-open-internet-tools)
 - [General End-User Video and Collaboration Apps Guidance](security/general-user-video-and-messaging-apps-guidance.md)
 - [TLS Standards](security/tls) - How to properly use Transport Level Security
+
+## Base requirements
+
+- All IT systems and services MUST be reviewed and assessed for both security and privacy issues. Any discovered issues must be formally documented with either a mitigation plan or a sign-off of the risk by the business owner. Risks may be escalated to organisation level if needed.
+
+- Any IT system or service being introduced or going through significant change and that is accessible across the Internet MUST have an appropriate penetration test. Any containing sensitive information may be required to go through a more comprehensive security review and testing. Reviews and testing may be done internally by NHS England's Cyber Security team or may be directed to have an external review.
+
+- Any IT system or service that has administrator accounts or access MUST implement **Multi-Factor Authentication** (MFA) or at least Two-Factor Authentication (2FA) on all user accounts with elevated rights.
+
+- IT systems and services SHOULD use individual user identifiable accounts to ensure that all access and actions are tracable to an individual. Where exceptions are identified, they MUST be reviewed and pre-approved by the NHS England Cyber Security team.
 
 ## Other Applicable UK Government and NHS Standards
 

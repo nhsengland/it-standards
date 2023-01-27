@@ -4,7 +4,7 @@ description: >
    This section of the standards covers all infrastructure. Whether Cloud-based, data-centre or on-premise.
 stage: 3. Development Stage
 created: 2021-06-08 13:51:00
-lastUpdated: 2022-06-24 10:42:11
+lastUpdated: 2023-01-27 09:48:23
 ---
 
 ## Common Standards
@@ -36,7 +36,7 @@ It will not be permitted to have infrastructure that has no support from the man
 
 The CISW Infrastructure Team along with the CISW Technical Design Authority (TDA) have responsibility over infrastructure change. Prior to live deployment, the Change Advisory Board must also be notified. Any proposed infrastructure changes that are different to the accepted architecture MUST also be reviewed and approved by the Architecture Review Board (ARB).
 
-All infrastructure MUST have suitable design documentation that must be approved before hardware/software procurement and deployment. 
+All infrastructure MUST have suitable design documentation that must be approved before hardware/software procurement and deployment. Documentation MUST be **accessible**. *PDF documents should not be used*.
 
 Wherever feasible, infrastructure MUST be defined using templating tools such as Azure Templates or Kubernetees. Consult with the CISW Infrastructure Team before deciding on the templating tool to use.
 

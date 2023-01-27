@@ -7,7 +7,7 @@ description: >
    This page defines the basic requirements for web applications developed by and for NHS England.
 stage: 3. Development Stage
 created: 2021-09-30 10:35:48
-lastUpdated: 2022-06-27 10:14:01
+lastUpdated: 2023-01-27 10:22:21
 author: Julian Knight
 ---
 
@@ -54,14 +54,21 @@ All web applications:
 ## Development stack
 
 * **Browser Client** - for front-end client (user) interactions (using HTML, CSS and JavaScript).
-* **REACT** - front-end library supporting client UI development.
-* **JavaScript v6 (ECMA2015)** - front-end code MUST target this version of JS or be transpiled to it.
-* **Azure DevOps Pipeline** - for Continuous Integration, project management, etc.
-* **GitHub NHS England** - NHS England's organisation on GitHub. For code management.
-* **.net or node.js** - for server (back-end) services.
-* **[ESLINT](https://eslint.org/)** - for JavaScript linting. Using the [JavaScript Standard Style](https://standardjs.com/rules.html)
-* **Visual Studio Code** - For web coding. Full Visual Studio can also be used for developers who are used to it but VScode has many advantages for web (and other) developers. While VScode was originally developed by Microsoft, it is now semi-independent open source freeware with a very large and active developer base.
 
+* **REACT** - front-end library supporting client UI development.
+
+* **JavaScript v6 (ECMA2015)** - front-end code MUST target this version of JS or be transpiled to it.
+
+* **Azure DevOps Pipeline** - for Continuous Integration, project management, etc.
+
+* **GitHub NHS England** - NHS England's organisation on GitHub. For code management.
+
+* **.net or node.js** - for server (back-end) services.
+
+* **[ESLINT](https://eslint.org/)** - for JavaScript linting. Using the [JavaScript Standard Style](https://standardjs.com/rules.html)
+
+* **Visual Studio Code** - For web coding. Full Visual Studio can also be used for developers who are used to it but VScode has many advantages for web (and other) developers. While VScode was originally developed by Microsoft, it is now semi-independent open source freeware with a very large and active developer base.
+  
   Suitable VScode extensions such as [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) or [StandardJS](https://marketplace.visualstudio.com/items?itemName=standard.vscode-standard) can and should be used with VScode.
 
 ## NCSC's 8 Principles of Secure Development & Deployment

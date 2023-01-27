@@ -4,7 +4,7 @@ description: >
    Defines the standards that are common to all application development projects.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2022-06-24 10:36:01
+lastUpdated: 2023-01-27 09:48:23
 ---
 
 Please note that ALL application development in NHS England and NHS Improvement is subject to the IT Requests & Approvals process.
@@ -31,7 +31,8 @@ All development:
 * MUST use the [license and copyright standards](application-development/common-dev/code-license-and-copyright.md).
 * MUST follow the [NHS](https://service-manual.nhs.uk/) and [UK Government](https://www.gov.uk/service-manual) (Cabinet Office Government Digital Service) Design Manual's.
 * MUST follow the security guidelines set out by the National Cyber Security Centre (NCSC).
-* MUST meet the accessibility requirements contained in the [GDS Service Manual](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements). See also the [Accessibility page](application-development/common-dev/accessibility). Accessibility is also a legal requirement.
+* MUST meet the accessibility requirements contained in the [GDS Service Manual](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements). See also the [Accessibility page](application-development/common-dev/accessibility). Accessibility is also a legal requirement. Accessibility covers the application, its documentation and its code.
+* MUST be well documented. High- and low-level architectural designs, specific code documentation, user-guides, interface and timing details, data schema's should all be provided as a minimum. Documentation MUST be accessible. PDF's SHOULD NOT be used.
 * SHOULD follow the security guidelines set out by NIST.
 
 ## Good Practice

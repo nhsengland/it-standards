@@ -7,7 +7,7 @@ description: >
    This section provides some guidance on expected requirements for service procurements and should be included in ITT's.
 stage: 3. Development Stage
 created: 2021-11-29 12:05:40
-lastUpdated: 2022-06-27 10:13:40
+lastUpdated: 2023-01-27 09:48:23
 author: Julian Knight
 ---
 
@@ -58,6 +58,8 @@ but also enables a more flexible approach whereby other services and systems can
 
 This is especially important for services that may be used by multiple NHS organisations. The NHS is a very complex collaboration of independent organisations and it
 must not be assumed that they will all be able to operate in the same way, have the same budgets, or have the same requirements.
+
+Any documentation should be made available in non-PDF format for accessibility.
 
 ## IP, definitions, documentation of Data, interfaces, API's, data schema's, etc. BELONGS TO THE CROWN, not the vendor or supplier
 
