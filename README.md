@@ -12,6 +12,10 @@ The **[NHS Long Term Plan](https://www.longtermplan.nhs.uk/areas-of-work/digital
 
 [Standards Catalogue](./Standards_Catalogue.md) - A catalogue of the standards in this repository.
 
+## To Do
+
+Standards that are known to need to be added but time and resources have not yet caught up, they are documented in the [TODO](TODO) document.
+
 ## Contributing
 
 If you would like to contribute to these standards, please raise an Issue in the first instance.
