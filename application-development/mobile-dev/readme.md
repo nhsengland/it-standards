@@ -4,7 +4,7 @@ description: >
    Defines the standards when designing and implementing new or updated mobile applications.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2022-06-24 10:36:30
+lastUpdated: 2023-01-06 15:36:00
 ---
 
 # Mobile Development Standards
@@ -22,7 +22,7 @@ All mobile applications
 
   NHS England have a pre-approvals board, DPAG, to help teams and projects get through the approvals requirements.
 
-  No mobile application may be developed or deployed with GDS approval.
+  No mobile application may be developed or deployed without prior GDS approval.
 
 * SHOULD use open development standards where feasible. 
 
