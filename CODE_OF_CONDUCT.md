@@ -1,4 +1,4 @@
-# NHS England & NHS Improvement GitHub code of conduct
+# NHS England GitHub code of conduct
 
 ## Our pledge
 
