@@ -3,7 +3,7 @@ title: Catalogue of IT Standards for NHS England
 description: >
    A list of the available standards.
 created: 2020-06-29
-lastUpdated: 2024-03-19 10:03:50
+lastUpdated: 2024-03-19 10:18:03
 author: Julian Knight
 ---
 
@@ -89,7 +89,7 @@ author: Julian Knight
 
 - **Other Applicable UK Government and NHS Standards**
 
-  All of the standards for NHS England and NHS Improvement are subject to both NHS and UK Government policies, strategies and standards, the key ones of which are listed here.
+  All of the standards for NHS England are subject to both NHS and UK Government policies, strategies and standards, the key ones of which are listed here.
 
   * **[NHS Digital Service Manual](https://service-manual.nhs.uk/)** - "Use the service manual to build consistent, usable services that put people first.​ Learn from the research and experience of other NHS teams."
   * **[Gov.uk Service Manual](https://www.gov.uk/service-manual)** - "Helping teams to create and run great public services that meet the **[Service Standard](https://www.gov.uk/service-manual/service-standard)"**. See also the **[Government Design Principles](https://www.gov.uk/guidance/government-design-principles)** and the **[Gov.uk Design System](https://design-system.service.gov.uk/)**.

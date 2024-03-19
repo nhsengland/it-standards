@@ -4,7 +4,7 @@ description: >
    Defines the different user types that are used to indicate what type of device that user requires.
 stage: 3. Development Stage
 created: 2021-05-04 15:53:00
-lastUpdated: 2022-06-24 12:42:18
+lastUpdated: 2024-03-19 10:20:08
 ---
 
 This document outlines the different types of users, the software and configuration they can expect, and the device types that they will be allocated as standard.
@@ -20,7 +20,7 @@ Device types are detailed in [Desktop Devices](./desktop-devices.md).
 
 ## 1) Standard User
 
-This covers 80-90% of all users across NHS England and NHS Improvement.
+This covers 80-90% of all users across NHS England.
 
 ### Device Allocation
 

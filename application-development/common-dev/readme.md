@@ -4,10 +4,10 @@ description: >
    Defines the standards that are common to all application development projects.
 stage: 3. Development Stage
 created: 2021-06-08 17:21:47
-lastUpdated: 2023-01-27 09:48:23
+lastUpdated: 2024-03-19 10:17:34
 ---
 
-Please note that ALL application development in NHS England and NHS Improvement is subject to the IT Requests & Approvals process.
+Please note that ALL application development in NHS England is subject to the IT Requests & Approvals process.
 
 No development may be started or considered without informing IT PMO so that it can be reviewed. You can then be supported through the
 various phases of work and approvals that may be required. Finance will not accept any business cases that involve technology or IT that have not been approved by IT.

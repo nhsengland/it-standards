@@ -4,13 +4,13 @@ description: >
    Standards and requirements for testing of developed applications.
 stage: 3. Development Stage
 created: 2021-06-30 11:22:49
-lastUpdated: 2021-11-24 17:39:31
+lastUpdated: 2024-03-19 10:19:14
 author: Julian Knight
 ---
 
 ## Required testing stages
 
-In general, the following stages and types of testing will be required for applications and services developed by or for NHS England and NHS Improvement.
+In general, the following stages and types of testing will be required for applications and services developed by or for NHS England.
 
 ### 1) Unit Tests
 
@@ -34,7 +34,7 @@ UAT testing MUST include performance testing such that the system is proven to m
 
 ### 5) Accessibility Tests
 
-All systems and services produced by and for NHS England and NHS Improvement MUST, by law and common morals, be accessible to users who require reasonable adjustments in order to use the service.
+All systems and services produced by and for NHS England MUST, by law and common morals, be accessible to users who require reasonable adjustments in order to use the service.
 
 As such, all systems and services MUST be tested for accessibility throughout the development and testing lifecycle in order to meet [UK Government accessibility requirements](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements).
 

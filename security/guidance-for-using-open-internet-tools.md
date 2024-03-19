@@ -5,12 +5,12 @@ description: >
 stage: 5. Live
 reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2022-06-24 10:52:06
+lastUpdated: 2024-03-19 10:21:29
 ---
 
 Please note that this guidance is based on [that of the Ministry of Justice](https://ministryofjustice.github.io/security-guidance/guidance-for-using-open-internet-tools) and adapted for use at NHS England.
 
-**This information applies to all staff, seconded, embedded, and contractor users who work with and for NHS England and NHS Improvement.**
+**This information applies to all staff, seconded, embedded, and contractor users who work with and for NHS England.**
 
 This guidance gives you:
 
@@ -122,7 +122,7 @@ Remember that it is impossible to delete information after it's released in publ
 
 ### Storage and data retention
 
-Laws and regulations make NHS England and NHS Improvement and its employees responsible for managing information. Some examples include:
+Laws and regulations make NHS England and its employees responsible for managing information. Some examples include:
 
 -   the Freedom of Information Act
 -   the Data Protection Act and General Data Protection Regulation

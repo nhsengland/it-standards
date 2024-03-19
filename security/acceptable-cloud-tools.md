@@ -5,7 +5,7 @@ description: >
 stage: 5. Live
 reviewDate: 2022-07-30
 created: 2021-06-30 17:49:16
-lastUpdated: 2023-01-27 11:09:58
+lastUpdated: 2024-03-19 10:20:51
 author: Julian Knight
 ---
 
@@ -13,7 +13,7 @@ Please note that this guidance is based on [that of the Ministry of Justice](htt
 
 ## Overview
 
-Various tools are approved and provided corporately to NSHEI staff. This document tells you about the tools you can, and cannot, use for business purposes. This guidance applies to all staff, seconded, embedded, and contractor users who work with and for NHS England and NHS Improvement.
+Various tools are approved and provided corporately to NSHEI staff. This document tells you about the tools you can, and cannot, use for business purposes. This guidance applies to all staff, seconded, embedded, and contractor users who work with and for NHS England.
 
 Some ALBs, Agencies, or other associated organisations may have their own, specific guidance regarding how to use certain Video and Messaging apps for different purposes.
 
@@ -56,7 +56,7 @@ Remember that it is impossible to delete information after it's released in publ
 
 ### Storage and data retention
 
-Laws and regulations make NHS England, NHS Improvement and its employees responsible for managing information. Some examples include:
+Laws and regulations make NHS England and its employees responsible for managing information. Some examples include:
 
 -   Freedom of Information Act.
 -   Data Protection Act and General Data Protection Regulation.

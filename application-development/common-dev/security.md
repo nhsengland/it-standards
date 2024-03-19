@@ -4,7 +4,7 @@ description: >
    Common security standards and requirements for NHS England applications.
 stage: 3. Development Stage
 created: 2021-06-30 11:22:49
-lastUpdated: 2022-06-24 10:28:05
+lastUpdated: 2024-03-19 10:18:42
 author: Julian Knight
 ---
 
@@ -16,7 +16,7 @@ Systems and services classified at OFFICIAL-SENSITIVE or above and all systems a
 
 All development projects MUST contact the Cyber Security Team early in the project lifecycle to agree the level and type of security testing required. The Security Team _should_ already be aware of proposed projects via the IT Request and Business Case Approvals triage process.
 
-All systems and services developed by and for NHS England and NHS Improvement will require a written and approved _System Level Security Policy_ (SLSP).
+All systems and services developed by and for NHS England will require a written and approved _System Level Security Policy_ (SLSP).
 
 Any application that handles information classified at OFFICIAL-SENSITIVE or above (including commercially sensitive or personally identifiable information) is required to register with the NHS England Information Asset Management System (IAMS). Please contact your Information Governance representative for further information.
 

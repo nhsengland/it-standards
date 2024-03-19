@@ -12,7 +12,7 @@ Except for [small corrections](#small-corrections), proposals for new standards 
 
 2. Response Stage
 
-   Once an Issue has been raised, the proposal will be reviewed by the owners of the repository and raised with the NHS England and NHS Improvement joint Architecture Review Board and other relavent colleagues as needed.
+   Once an Issue has been raised, the proposal will be reviewed by the owners of the repository and raised with the NHS England joint Architecture Review Board and other relavent colleagues as needed.
    
    The proposal will be reviewed, any questions and responses will be added to comments in the Issue.
    

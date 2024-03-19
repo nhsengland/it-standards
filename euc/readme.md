@@ -4,7 +4,7 @@ description: >
    General standards and requirements for end-user compute and services.
 stage: 3. Development Stage
 created: 2021-06-08
-lastUpdated: 2022-06-27 10:13:48
+lastUpdated: 2024-03-19 10:19:40
 author: Julian Knight
 ---
 
@@ -15,7 +15,7 @@ These are the standards that apply to the provision and use of EUC devices.
 
 Please read the [CONTRIBUTING](CONTRIBUTING.md) document for details of how to contribute to these standards.
 
-The standard EUC capabilities for NHS England and NHS Improvement are currently (2021H1) going through significant and rapid change from our legacy services to the "Modern Desktop" design as part of the End User Services project.
+The standard EUC capabilities for NHS England are currently (2021H1) going through significant and rapid change from our legacy services to the "Modern Desktop" design as part of the End User Services project.
 
 See also:
 
