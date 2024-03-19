@@ -1,6 +1,6 @@
-# NHS England and NHS Improvement IT Standards
+# NHS England IT Standards
 
-IT Standards for NHS England &amp; NHS Improvement. Documented in markdown and managed as code.
+IT Standards for NHS England. Documented in markdown and managed as code.
 
 Out standards are built based on other standards and policies across the UK Government and Health sectors.
 
@@ -24,7 +24,7 @@ Contributions will be accepted via [Pull Request](https://help.github.com/en/git
 
 Non-direct contributors should create a fork of this repository, make changes and submit a PR. 
 
-Minor changes will be reviewed by the main owners of this repository. Major changes to standards will be reviewed initially by the NHS England and NHS Improvement joint Architecture Review Board. Detailed reviews and further discussions may then be allocated to subject matter experts as required.
+Minor changes will be reviewed by the main owners of this repository. Major changes to standards will be reviewed initially by the NHS England joint Technical Design Authority. Detailed reviews and further discussions may then be allocated to subject matter experts as required.
 
 ## Formatting and Structure
 
